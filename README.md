@@ -34,8 +34,8 @@ A última linha baixa o modelo e calcula um vetor por receita em CPU. Essa prepa
 
 ## Três experiências para fazer na tela
 
-1. **Procure `bolo de cenoura` e abra o pão.** Na coluna **Por palavras**, *Pão de cenoura light* apareceu em segundo lugar. Procure “tipo bolo inglês” no preparo. A palavra *bolo* descreve a fôrma, mas também contribui para a pontuação lexical. Na coluna **Por significado**, os cinco primeiros resultados foram bolos de cenoura.
-2. **Procure `suco de ananás` e compare as bebidas no topo.** O BM25 encontrou *Licor de abacaxi*, que menciona “ananás”. A busca semântica encontrou *Refresco delicioso de abacaxi*, cuja receita usa “abacaxi”. Qual você abriria para preparar o suco?
+1. **Procure `bolo de cenoura`.** Na coluna **Por palavras**, *Pão de cenoura light* apareceu em segundo lugar. Procure “tipo bolo inglês” no preparo. A palavra *bolo* descreve a fôrma, mas também contribui para a pontuação lexical. Na coluna **Por significado**, os cinco primeiros resultados foram bolos de cenoura.
+2. **Procure `suco de ananás`.** O BM25 encontrou *Licor de abacaxi*, que menciona “ananás”. A busca semântica encontrou *Refresco delicioso de abacaxi*, cuja receita usa “abacaxi”. Qual você abriria para preparar o suco?
 3. **Digite `mandioca frita` e depois `macaxeira frita`.** Na primeira busca, *Mandioca frita* aparece em segundo lugar no BM25 e em primeiro na semântica. Trocando apenas o nome regional, ela sai das duas listas visíveis. O corpus contém a receita, mas nenhuma entrada usa a palavra “macaxeira”. Nesse caso, a semelhança de significado também foi insuficiente para trazê-la ao topo.
 
 ## O que a avaliação mostrou
