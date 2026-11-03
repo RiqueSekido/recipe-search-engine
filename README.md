@@ -1,24 +1,23 @@
-# recipe-search-engine
+# Busca de receitas em linguagem natural
 
-Buscador de receitas em linguagem natural, com comparação entre BM25 e embeddings pelo navegador ou pelo terminal.
+Como encontrar uma receita quando você usa um nome diferente do que aparece no livro? Nesta demonstração de Recuperação da Informação, você faz uma consulta em português e compara duas listas de até cinco resultados. Ambas pesquisam as mesmas **2.502 receitas do Wikilivros**. A coluna **Por palavras** usa BM25 para localizar termos da consulta. A coluna **Por significado** usa embeddings para aproximar textos de sentido semelhante.
 
-## Interface da feira
+## Abrir a interface da feira
 
-Com a `.venv`, o corpus, o modelo e o índice semântico preparados conforme as etapas abaixo, execute na raiz do projeto:
+**Com o projeto já preparado**, abra o PowerShell na raiz do repositório e execute:
 
 ```powershell
 .\.venv\Scripts\python.exe -m streamlit run scripts/app.py --server.address 127.0.0.1 --server.port 8501
 ```
 
-Abra [a interface local](http://127.0.0.1:8501), digite uma consulta ou escolha um dos exemplos. Cada coluna apresenta até cinco receitas. **Ver receita** abre os ingredientes e o preparo da variação exibida. O link do Wikilivros identifica a página de origem, que pode conter várias versões.
+[Abrir a interface local](http://127.0.0.1:8501). No primeiro acesso, aguarde o carregamento do modelo. Digite o pedido e clique em **Buscar receitas**, ou escolha um dos exemplos da tela. Clique em **Ver receita** para ler os ingredientes e o preparo daquela variação. Isso ajuda a distinguir pratos com o mesmo título e o mesmo link de origem.
 
-O primeiro acesso carrega os índices e o modelo em memória. As próximas consultas reutilizam esses recursos até o aplicativo ser encerrado. O tempo exibido mede a execução das duas buscas, sem a carga inicial e a renderização da página. Use Ctrl+C no terminal para encerrar.
+Mantenha o aplicativo aberto durante a feira. As consultas seguintes reutilizam o modelo e os índices em memória e funcionam sem internet. O tempo mostrado na tela mede as duas buscas após o carregamento. Para encerrar, pressione Ctrl+C no terminal.
 
-## Ambiente para busca semântica
+<details>
+<summary><strong>Primeira instalação no Windows</strong></summary>
 
-O ambiente local usa Python 3.12.10 de 64 bits e uma `.venv` exclusiva do projeto, com PyTorch para CPU. As versões das dependências estão fixadas em `requirements.txt`.
-
-Para recriar o ambiente no Windows, após instalar Python 3.12 para o usuário:
+Use a branch `dev`, que contém a aplicação e o corpus preparado. Com Python 3.12 de 64 bits instalado, execute na raiz do projeto. A primeira linha usa o caminho padrão de instalação para o usuário. Ajuste-o se necessário.
 
 ```powershell
 & "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" -m venv .venv
@@ -26,97 +25,50 @@ Para recriar o ambiente no Windows, após instalar Python 3.12 para o usuário:
 .\.venv\Scripts\python.exe -m pip install "torch==2.15.0+cpu" --index-url https://download.pytorch.org/whl/cpu
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m pip check
-```
-
-O PyTorch é instalado primeiro a partir do índice oficial para CPU; as demais dependências vêm do PyPI. Os comandos usam diretamente o Python da `.venv`, sem precisar ativá-la ou alterar a política de execução do PowerShell.
-
-Para executar a busca existente nesse ambiente:
-
-```powershell
-.\.venv\Scripts\python.exe scripts/search_bm25.py "bolo de cenoura"
-```
-
-A `.venv`, os arquivos baixados do modelo, os índices locais e os caches de bytecode são ignorados pelo Git.
-
-## Corpus
-
-- `data/raw/receitas_wikilivros.jsonl`: cópia original, sem alterações.
-- `data/processed/receitas.jsonl`: documentos preparados para busca.
-- `reports/preparacao_corpus.json`: origem, hash do original, consolidações e casos para revisão.
-
-Fonte: [denisevitoriano/tech_challenge_fase_04](https://github.com/denisevitoriano/tech_challenge_fase_04/tree/9f5ac844fea4c889d1115abe6e6f00191dfb83fd), versão `9f5ac844fea4c889d1115abe6e6f00191dfb83fd`.
-As receitas são atribuídas aos colaboradores do Wikilivros; as páginas de origem ficam preservadas em `fontes` de cada documento.
-O repositório de origem declara o corpus sob [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); essa indicação é mantida para os dados derivados. A preparação acrescenta metadados e consolida repetições, preservando os textos.
-
-## Reproduzir a preparação
-
-Com Python 3.9 ou superior, sem instalar dependências:
-
-```sh
-python scripts/prepare_corpus.py
-```
-
-O script lê a cópia local, verifica seu SHA-256 e recria o corpus preparado e o relatório. Não acessa a rede.
-
-Cada receita recebe um ID SHA-256 calculado a partir das listas de ingredientes e preparo. O ID independe da posição no arquivo; alterações nessas listas produzem outro ID.
-Somente listas exatamente iguais são consolidadas. O primeiro registro fornece o título e a categoria principais; todos os títulos, categorias e links originais são preservados em `fontes`, e os títulos diferentes também ficam em `titulos_alternativos`.
-
-O campo `texto_busca` reúne título, títulos alternativos, ingredientes e preparo, separados por quebras de linha. Os dois métodos de busca poderão usar esse mesmo conteúdo.
-
-A preparação mantém variações reais e receitas curtas. O relatório registra resíduos de marcação e o caso de preparo incompleto observado na auditoria; não constitui uma revisão manual completa. Tempo de preparo não é um campo estruturado, e algumas subseções de ingredientes aparecem dentro do preparo. Filtros ainda dependem de revisão adicional.
-
-## Buscar receitas com BM25
-
-Na pasta do projeto, com Python 3.9 ou superior:
-
-```sh
-python scripts/search_bm25.py "bolo de cenoura"
-python scripts/search_bm25.py "arroz com frango" -k 3
-```
-
-A busca usa apenas a biblioteca padrão e exibe até cinco receitas por padrão, com título, pontuação e fontes. O índice é construído em memória a cada execução, a partir de `texto_busca`.
-
-Receitas e consultas passam pela mesma tokenização: normalização Unicode NFC, minúsculas e separação em palavras/números, preservando acentos. Não há remoção de palavras comuns, redução de palavras ao radical ou expansão de sinônimos. Cada termo distinto da consulta contribui uma vez para a pontuação; basta haver correspondência com algum termo para uma receita participar do ranking.
-
-A implementação usa BM25 com `k1 = 1.2`, `b = 0.75` e IDF positiva:
-
-```text
-IDF(t) = ln(1 + (N - df(t) + 0.5) / (df(t) + 0.5))
-score(d, q) = soma de IDF(t) * f(t,d) * (k1 + 1)
-                         / (f(t,d) + k1 * (1 - b + b * tamanho(d) / tamanho_médio))
-```
-
-`N` é o total de documentos, `df(t)` conta os documentos com o termo e `f(t,d)` conta suas ocorrências na receita. O tamanho é medido em tokens. Empates são resolvidos pelo ID da receita. A pontuação serve para ordenar resultados; não é uma probabilidade de relevância.
-
-Consultas vazias ou compostas somente de pontuação são rejeitadas. Se nenhum termo existir no corpus, a busca informa que não houve correspondência. Documentos sem correspondência não são usados para completar a quantidade solicitada.
-
-## Busca semântica
-
-Modelo: [intfloat/multilingual-e5-small](https://huggingface.co/intfloat/multilingual-e5-small), revisão `614241f622f53c4eeff9890bdc4f31cfecc418b3`, executado em CPU. O índice contém vetores normalizados de 384 dimensões. As receitas recebem o prefixo `passage: ` e as consultas, `query: `, conforme o treinamento do modelo.
-
-Para baixar o modelo e verificar o tamanho dos textos:
-
-```powershell
-.\.venv\Scripts\python.exe scripts/prepare_semantic_index.py
-```
-
-O modelo limita a entrada a 512 tokens, incluindo prefixo e tokens especiais. Na versão atual do corpus, 32 das 2.502 receitas ultrapassam esse limite; a maior tem 982 tokens. A política escolhida para esta primeira versão é o truncamento documentado. Por padrão, o script ainda interrompe antes de gerar vetores se houver textos longos; para aplicar a política escolhida, use:
-
-```powershell
 .\.venv\Scripts\python.exe scripts/prepare_semantic_index.py --permitir-truncamento
 ```
 
-Essa opção permite que o modelo use o início dos textos até seu limite. O corpus original e o preparado continuam completos; o relatório `reports/indice_semantico.json` lista todos os documentos afetados. Nesses casos, o BM25 tem acesso a mais conteúdo que a busca semântica, limitação que precisa acompanhar a avaliação. Acrescente `--offline` à preparação para usar o modelo já baixado sem acesso à rede.
+A última linha baixa o modelo e calcula um vetor por receita em CPU. Essa preparação precisa de internet no primeiro uso e pode levar alguns minutos. Os pesos ficam em `models/` e o índice em `data/indexes/semantic.npz`. Quando terminar, execute o comando de abertura da interface acima. Nas próximas sessões basta abrir o aplicativo.
 
-Após a geração do índice:
+</details>
+
+## Três experiências para fazer na tela
+
+1. **Procure `bolo de cenoura` e abra o pão.** Na coluna **Por palavras**, *Pão de cenoura light* apareceu em segundo lugar. Procure “tipo bolo inglês” no preparo. A palavra *bolo* descreve a fôrma, mas também contribui para a pontuação lexical. Na coluna **Por significado**, os cinco primeiros resultados foram bolos de cenoura.
+2. **Procure `suco de ananás` e compare as bebidas no topo.** O BM25 encontrou *Licor de abacaxi*, que menciona “ananás”. A busca semântica encontrou *Refresco delicioso de abacaxi*, cuja receita usa “abacaxi”. Qual você abriria para preparar o suco?
+3. **Digite `mandioca frita` e depois `macaxeira frita`.** Na primeira busca, *Mandioca frita* aparece em segundo lugar no BM25 e em primeiro na semântica. Trocando apenas o nome regional, ela sai das duas listas visíveis. O corpus contém a receita, mas nenhuma entrada usa a palavra “macaxeira”. Nesse caso, a semelhança de significado também foi insuficiente para trazê-la ao topo.
+
+## O que a avaliação mostrou
+
+A avaliação preliminar reuniu **24 consultas** com oito por grupo (termos diretos, sinônimos ou paráfrases, e descrições). Uma IA julgou **211 pares de consulta e receita** sem ver o método nem a posição de origem. Os resultados dependem desses julgamentos e aguardam revisão humana.
+
+| Método | Resultados plenamente relevantes | Precision@5 | nDCG@5 |
+|---|---:|---:|---:|
+| BM25 | 30 de 120 | 25,0% | 0,676 |
+| Busca semântica | 37 de 120 | 30,8% | 0,755 |
+
+**Precision@5** mede a proporção dos cinco primeiros resultados que atenderam completamente ao pedido. **nDCG@5** também considera relevância parcial e valoriza os acertos nas primeiras posições. Neste conjunto, a precisão empatou nas consultas diretas e foi maior para a busca semântica nos outros dois grupos. [Consultas e critérios](avaliacao/consultas.md) · [Julgamentos por IA](avaliacao/julgamento_v1_ia.md) · [Resultados por grupo e consulta](avaliacao/resultados_v1_ia.md)
+
+## Corpus e atribuição
+
+As receitas são dos colaboradores do Wikilivros. O corpus de origem declara a licença CC BY-SA 3.0. A preparação consolidou quatro pares com ingredientes e preparo idênticos, preservou as fontes e manteve as variações reais. Cada resultado pode ser consultado na página original. [Repositório de origem](https://github.com/denisevitoriano/tech_challenge_fase_04/tree/9f5ac844fea4c889d1115abe6e6f00191dfb83fd) · [Licença](https://creativecommons.org/licenses/by-sa/3.0/) · [Relatório de preparação](reports/preparacao_corpus.json)
+
+## Para desenvolvimento
+
+Os dois métodos usam o campo `texto_busca`, que reúne título, títulos alternativos, ingredientes e preparo. A busca individual pelo terminal mostra posição, pontuação, prévia dos ingredientes e fontes.
 
 ```powershell
-.\.venv\Scripts\python.exe scripts/search_semantic.py "bolo de cenoura"
-.\.venv\Scripts\python.exe scripts/search_semantic.py "comida com aipim" -k 3
+.\.venv\Scripts\python.exe scripts/search_bm25.py "bolo de cenoura" -k 5
+.\.venv\Scripts\python.exe scripts/search_semantic.py "bolo de cenoura" -k 5
 ```
 
-A consulta usa somente os arquivos locais. Os vetores das receitas ficam em `data/indexes/semantic.npz`; cada busca calcula apenas o vetor da consulta. O produto escalar de vetores normalizados equivale à similaridade de cosseno. Empates são resolvidos pelo ID da receita, como no BM25.
+O **BM25** usa termos em minúsculas com acentos preservados, `k1 = 1.2`, `b = 0.75` e IDF positiva. Para cada termo distinto da consulta, pesa a frequência na receita (`f`), o número de receitas que contêm o termo (`df`) e o comprimento da receita em tokens (`L`).
 
-O índice guarda os IDs na mesma ordem dos vetores, a revisão do modelo e o SHA-256 do corpus. Se o corpus ou a versão esperada do índice/modelo mudar, a busca exige nova indexação. Consultas vazias, quantidade inválida de resultados e consultas acima do limite são rejeitadas.
+```text
+IDF = ln(1 + (N - df + 0.5) / (df + 0.5))
+contribuição = IDF * f * (k1 + 1) / (f + k1 * (1 - b + b * L / L_médio))
+```
 
-A similaridade semântica não exige palavras em comum: sempre retorna os documentos mais próximos, até a quantidade solicitada, mesmo que sejam pouco relevantes. Não há limiar de relevância calibrado nesta versão. A pontuação não é uma probabilidade e não deve ser comparada numericamente à pontuação BM25.
+A **busca semântica** usa o modelo multilingual-e5-small com os prefixos `query: ` e `passage: `. Compara o vetor da consulta aos vetores normalizados das receitas por similaridade de cosseno. O limite de 512 tokens atingiu 32 receitas. Para elas, o BM25 considera o texto integral e o modelo semântico considera o trecho inicial. [Modelo](https://huggingface.co/intfloat/multilingual-e5-small) · [Revisão do modelo e receitas truncadas](reports/indice_semantico.json)
+
+Para recriar o corpus a partir da cópia original, use `python scripts/prepare_corpus.py`. Se o corpus mudar, gere o índice novamente. Com o modelo já baixado, acrescente `--offline` ao comando de indexação.
