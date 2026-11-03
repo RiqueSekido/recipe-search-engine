@@ -1,6 +1,18 @@
 # recipe-search-engine
 
-Buscador de receitas em linguagem natural, com scripts de busca lexical BM25 e semântica pelo terminal.
+Buscador de receitas em linguagem natural, com comparação entre BM25 e embeddings pelo navegador ou pelo terminal.
+
+## Interface da feira
+
+Com a `.venv`, o corpus, o modelo e o índice semântico preparados conforme as etapas abaixo, execute na raiz do projeto:
+
+```powershell
+.\.venv\Scripts\python.exe -m streamlit run scripts/app.py --server.address 127.0.0.1 --server.port 8501
+```
+
+Abra [a interface local](http://127.0.0.1:8501), digite uma consulta ou escolha um dos exemplos. Cada coluna apresenta até cinco receitas. **Ver receita** abre os ingredientes e o preparo da variação exibida. O link do Wikilivros identifica a página de origem, que pode conter várias versões.
+
+O primeiro acesso carrega os índices e o modelo em memória. As próximas consultas reutilizam esses recursos até o aplicativo ser encerrado. O tempo exibido mede a execução das duas buscas, sem a carga inicial e a renderização da página. Use Ctrl+C no terminal para encerrar.
 
 ## Ambiente para busca semântica
 

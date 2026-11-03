@@ -1,0 +1,1682 @@
+{
+  "versao": "1.0",
+  "consultas_sha256": "7782f7d90dfaf03432feb067bcace5faf08ab96c1d07bd9d646cda6643fc34a0",
+  "semente": 20261103,
+  "consultas": {
+    "Q01": {
+      "consulta": "Quero fazer macarrão ao alho e óleo",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_5843a8d379c9f3a8d9ed807bce2afa6bfa47e14394ff8685c65965f13e931efe",
+            "score": 14.397729066227567
+          },
+          {
+            "posicao": 2,
+            "id": "receita_426e736bccde7f93f40e6b7f898ea6771b6028dce481a250b9ca3de3b2a1409f",
+            "score": 13.063117165243554
+          },
+          {
+            "posicao": 3,
+            "id": "receita_775f3e945ef6dc73e51a95db6b899ef9369531fddd12c8301de854e4033ed398",
+            "score": 12.679842825460838
+          },
+          {
+            "posicao": 4,
+            "id": "receita_c903884a87cd0abfa928c50ed3f559f852dba86283bb91e1f3e8cfd8215dfcfb",
+            "score": 11.85224001304607
+          },
+          {
+            "posicao": 5,
+            "id": "receita_a31ebe9905078bb84b8c7693db8f4b8c43dcc221ff49b2117f9c4ebff28f9441",
+            "score": 9.387722206122472
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_5843a8d379c9f3a8d9ed807bce2afa6bfa47e14394ff8685c65965f13e931efe",
+            "score": 0.8975581526756287
+          },
+          {
+            "posicao": 2,
+            "id": "receita_775f3e945ef6dc73e51a95db6b899ef9369531fddd12c8301de854e4033ed398",
+            "score": 0.8898965120315552
+          },
+          {
+            "posicao": 3,
+            "id": "receita_dc05945a55a76ac361039d4588c9a4442146fb5b20a1d98861d02689cc793cc5",
+            "score": 0.884616494178772
+          },
+          {
+            "posicao": 4,
+            "id": "receita_7816d42158c25627ffef77cf744f7e0c789aac79cf4efbf676401dd97e6681ff",
+            "score": 0.8842136859893799
+          },
+          {
+            "posicao": 5,
+            "id": "receita_d746aaae50e39188cbb5bd0f0d1359c96d4854135167f878fc54f91caef79c66",
+            "score": 0.8813074827194214
+          }
+        ]
+      },
+      "itens": {
+        "Q01-01": "receita_7816d42158c25627ffef77cf744f7e0c789aac79cf4efbf676401dd97e6681ff",
+        "Q01-02": "receita_426e736bccde7f93f40e6b7f898ea6771b6028dce481a250b9ca3de3b2a1409f",
+        "Q01-03": "receita_775f3e945ef6dc73e51a95db6b899ef9369531fddd12c8301de854e4033ed398",
+        "Q01-04": "receita_a31ebe9905078bb84b8c7693db8f4b8c43dcc221ff49b2117f9c4ebff28f9441",
+        "Q01-05": "receita_c903884a87cd0abfa928c50ed3f559f852dba86283bb91e1f3e8cfd8215dfcfb",
+        "Q01-06": "receita_d746aaae50e39188cbb5bd0f0d1359c96d4854135167f878fc54f91caef79c66",
+        "Q01-07": "receita_dc05945a55a76ac361039d4588c9a4442146fb5b20a1d98861d02689cc793cc5",
+        "Q01-08": "receita_5843a8d379c9f3a8d9ed807bce2afa6bfa47e14394ff8685c65965f13e931efe"
+      }
+    },
+    "Q02": {
+      "consulta": "Como preparo sopa de espinafre com ricota?",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_c105a6de0a08300d66fd4ecbaa66a9d9799442454534f4e8e7ff03929bd8825a",
+            "score": 18.496400915392975
+          },
+          {
+            "posicao": 2,
+            "id": "receita_a2c07152d2af807c1bb8b3af069c57199923b103d6e06028f64c6d6756751c00",
+            "score": 15.2305411665129
+          },
+          {
+            "posicao": 3,
+            "id": "receita_387373a2c33f973853f1d95b229db01a6396389845942d9c49b9a26cf6501ff3",
+            "score": 10.522819235415103
+          },
+          {
+            "posicao": 4,
+            "id": "receita_81ee72e67441786464c8fb7f60e49de30ba069376dda309c8016dea4307b0564",
+            "score": 9.901735156062225
+          },
+          {
+            "posicao": 5,
+            "id": "receita_01a22d956b930d87eee6fc667f162f5b04d85174a052c0a8f3982e272ff5316f",
+            "score": 9.412761624488162
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_c105a6de0a08300d66fd4ecbaa66a9d9799442454534f4e8e7ff03929bd8825a",
+            "score": 0.9114274382591248
+          },
+          {
+            "posicao": 2,
+            "id": "receita_a2c07152d2af807c1bb8b3af069c57199923b103d6e06028f64c6d6756751c00",
+            "score": 0.8860175013542175
+          },
+          {
+            "posicao": 3,
+            "id": "receita_01a22d956b930d87eee6fc667f162f5b04d85174a052c0a8f3982e272ff5316f",
+            "score": 0.8803404569625854
+          },
+          {
+            "posicao": 4,
+            "id": "receita_97f9f728c8bbd3f34659c59ac56fe6db0680f4f2365361e8b7a1c4efaac2405f",
+            "score": 0.8790937066078186
+          },
+          {
+            "posicao": 5,
+            "id": "receita_70d5ec872017762e58ca70664066b245d3bba9a91161d0dda80e99896f4431b6",
+            "score": 0.8788589239120483
+          }
+        ]
+      },
+      "itens": {
+        "Q02-01": "receita_a2c07152d2af807c1bb8b3af069c57199923b103d6e06028f64c6d6756751c00",
+        "Q02-02": "receita_387373a2c33f973853f1d95b229db01a6396389845942d9c49b9a26cf6501ff3",
+        "Q02-03": "receita_81ee72e67441786464c8fb7f60e49de30ba069376dda309c8016dea4307b0564",
+        "Q02-04": "receita_c105a6de0a08300d66fd4ecbaa66a9d9799442454534f4e8e7ff03929bd8825a",
+        "Q02-05": "receita_70d5ec872017762e58ca70664066b245d3bba9a91161d0dda80e99896f4431b6",
+        "Q02-06": "receita_97f9f728c8bbd3f34659c59ac56fe6db0680f4f2365361e8b7a1c4efaac2405f",
+        "Q02-07": "receita_01a22d956b930d87eee6fc667f162f5b04d85174a052c0a8f3982e272ff5316f"
+      }
+    },
+    "Q03": {
+      "consulta": "Procuro um biscoito de aveia",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_808bc51e72c38b719f50f0771ae464c5e62f84570a4bdaf3a8aea95c6560c1ce",
+            "score": 12.226385112956322
+          },
+          {
+            "posicao": 2,
+            "id": "receita_09db8eca366759b26ed866f6e51053e1c0d4f1098438a790cdff0fa5d2033f2c",
+            "score": 11.495906637827627
+          },
+          {
+            "posicao": 3,
+            "id": "receita_e31f70974398a90aaf3663ad5bafdcf4f58b9efb0f0121f51423ca1768875815",
+            "score": 9.08800950107728
+          },
+          {
+            "posicao": 4,
+            "id": "receita_10f6bca4a734c168431cb82b39eecc90084cca55180bb465d29d5d7ee696021d",
+            "score": 8.754071667006853
+          },
+          {
+            "posicao": 5,
+            "id": "receita_37fa80eccf7f4faacbe67ad40f873c34e9fc670b98b2abad1f6ccab50e51e834",
+            "score": 8.405865395171107
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_808bc51e72c38b719f50f0771ae464c5e62f84570a4bdaf3a8aea95c6560c1ce",
+            "score": 0.8960658311843872
+          },
+          {
+            "posicao": 2,
+            "id": "receita_fc3a400de4bcc832d73d96946a783c553f3f70cfd592005e4a967efcf86cf6d4",
+            "score": 0.8895612359046936
+          },
+          {
+            "posicao": 3,
+            "id": "receita_475907bb8d1f4cd8ba90bdfccbddbc01afe498e4eb8a570bce6368fb978e8d77",
+            "score": 0.8880008459091187
+          },
+          {
+            "posicao": 4,
+            "id": "receita_1839df2ebc52581209dff869209bdbf4c044986226693746e6ab0916e82a206f",
+            "score": 0.8848594427108765
+          },
+          {
+            "posicao": 5,
+            "id": "receita_a1ca750261f04c713f13b263d1532010a0695f2f229f7023fb1ab94f337cef01",
+            "score": 0.8838591575622559
+          }
+        ]
+      },
+      "itens": {
+        "Q03-01": "receita_09db8eca366759b26ed866f6e51053e1c0d4f1098438a790cdff0fa5d2033f2c",
+        "Q03-02": "receita_fc3a400de4bcc832d73d96946a783c553f3f70cfd592005e4a967efcf86cf6d4",
+        "Q03-03": "receita_a1ca750261f04c713f13b263d1532010a0695f2f229f7023fb1ab94f337cef01",
+        "Q03-04": "receita_1839df2ebc52581209dff869209bdbf4c044986226693746e6ab0916e82a206f",
+        "Q03-05": "receita_10f6bca4a734c168431cb82b39eecc90084cca55180bb465d29d5d7ee696021d",
+        "Q03-06": "receita_475907bb8d1f4cd8ba90bdfccbddbc01afe498e4eb8a570bce6368fb978e8d77",
+        "Q03-07": "receita_e31f70974398a90aaf3663ad5bafdcf4f58b9efb0f0121f51423ca1768875815",
+        "Q03-08": "receita_808bc51e72c38b719f50f0771ae464c5e62f84570a4bdaf3a8aea95c6560c1ce",
+        "Q03-09": "receita_37fa80eccf7f4faacbe67ad40f873c34e9fc670b98b2abad1f6ccab50e51e834"
+      }
+    },
+    "Q04": {
+      "consulta": "Quero fazer arroz com ervilhas",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_4f19faba23b57c637414faa54547ec903b0ba21b28ae9ca6d62a56ff2d86ff90",
+            "score": 13.713581424034299
+          },
+          {
+            "posicao": 2,
+            "id": "receita_a5b0f9ecda940ab57e872c67b8079ea36682da922772adf2d859ce2280c1a57a",
+            "score": 8.293371696017527
+          },
+          {
+            "posicao": 3,
+            "id": "receita_5137dea89b4c12b829e4f8ff07ff3b0e427fcdbfce26b572b0620a977e8de2c5",
+            "score": 7.741569062976739
+          },
+          {
+            "posicao": 4,
+            "id": "receita_bf3dc6682f884980ba2c89b26e8b55bfd8db7e27a83ce0d4fd6dfd217b828170",
+            "score": 7.690244720396658
+          },
+          {
+            "posicao": 5,
+            "id": "receita_b7f6360a99aacc428b3971f670ff0770db63efebaf4cff32bf7e9b3a0f24b6fa",
+            "score": 7.600948932683864
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_4f19faba23b57c637414faa54547ec903b0ba21b28ae9ca6d62a56ff2d86ff90",
+            "score": 0.8995277881622314
+          },
+          {
+            "posicao": 2,
+            "id": "receita_d2fb54a5cacc9d6dead5e43978662e1e7b757ad5b603e981359a9fc97846a682",
+            "score": 0.8889105319976807
+          },
+          {
+            "posicao": 3,
+            "id": "receita_06aea247bfee5e0df0419778308b446aa25a8026111b2580d77d47bca7eb59e5",
+            "score": 0.8856410384178162
+          },
+          {
+            "posicao": 4,
+            "id": "receita_5a0fe42a8a4784edf410e928738c609c6f8e283af54eae74057159228c815b7a",
+            "score": 0.8852212429046631
+          },
+          {
+            "posicao": 5,
+            "id": "receita_c226866822b7ab685f1e46044be15b86805b60fbca801bf970476695bc883a90",
+            "score": 0.884483814239502
+          }
+        ]
+      },
+      "itens": {
+        "Q04-01": "receita_d2fb54a5cacc9d6dead5e43978662e1e7b757ad5b603e981359a9fc97846a682",
+        "Q04-02": "receita_5137dea89b4c12b829e4f8ff07ff3b0e427fcdbfce26b572b0620a977e8de2c5",
+        "Q04-03": "receita_5a0fe42a8a4784edf410e928738c609c6f8e283af54eae74057159228c815b7a",
+        "Q04-04": "receita_06aea247bfee5e0df0419778308b446aa25a8026111b2580d77d47bca7eb59e5",
+        "Q04-05": "receita_a5b0f9ecda940ab57e872c67b8079ea36682da922772adf2d859ce2280c1a57a",
+        "Q04-06": "receita_bf3dc6682f884980ba2c89b26e8b55bfd8db7e27a83ce0d4fd6dfd217b828170",
+        "Q04-07": "receita_4f19faba23b57c637414faa54547ec903b0ba21b28ae9ca6d62a56ff2d86ff90",
+        "Q04-08": "receita_c226866822b7ab685f1e46044be15b86805b60fbca801bf970476695bc883a90",
+        "Q04-09": "receita_b7f6360a99aacc428b3971f670ff0770db63efebaf4cff32bf7e9b3a0f24b6fa"
+      }
+    },
+    "Q05": {
+      "consulta": "Como fazer doce de casca de maracujá?",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_d4c749cd91144b314103f423e3e017308ef7585abe72082e9622208ec4357497",
+            "score": 13.702126735732682
+          },
+          {
+            "posicao": 2,
+            "id": "receita_15e3dbfec9b18dac39de08bbcb09e204d039d088bca56346d926def73f5017bc",
+            "score": 12.521570025847204
+          },
+          {
+            "posicao": 3,
+            "id": "receita_1e7057e2a720fb13aaf35db408028e9ff871abe44f823fcd5b7daf043bc2b759",
+            "score": 10.414580262677367
+          },
+          {
+            "posicao": 4,
+            "id": "receita_1bb2c9fc35b5fbb0f7a7c0988df8f1c12e27ebbdd8f2e2321b9bff66b65d6565",
+            "score": 10.38464650948012
+          },
+          {
+            "posicao": 5,
+            "id": "receita_bac84c55d13a7e81f6292bd46f5e87a8fe90749bb856e5334552062cc4eea2e7",
+            "score": 9.952722112484386
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_d4c749cd91144b314103f423e3e017308ef7585abe72082e9622208ec4357497",
+            "score": 0.9127719402313232
+          },
+          {
+            "posicao": 2,
+            "id": "receita_b3e5ccdd66778df810e3ec99980f0f90fea9b7afdeac68863350ee2b2ff17728",
+            "score": 0.8873667120933533
+          },
+          {
+            "posicao": 3,
+            "id": "receita_1f9c5ae5448028fbb7fdd00e5926058482d72c9e2be937803c3b0ef71817e8eb",
+            "score": 0.8839247226715088
+          },
+          {
+            "posicao": 4,
+            "id": "receita_2afa9c87811600dd1c96246fa88dd67fed5ac84fb87047f92a6389841245df35",
+            "score": 0.8823515772819519
+          },
+          {
+            "posicao": 5,
+            "id": "receita_e465618e0d4857a1eb93094fb7b6d1bd72966b8a094fd43966661561749812b9",
+            "score": 0.8814936280250549
+          }
+        ]
+      },
+      "itens": {
+        "Q05-01": "receita_b3e5ccdd66778df810e3ec99980f0f90fea9b7afdeac68863350ee2b2ff17728",
+        "Q05-02": "receita_1e7057e2a720fb13aaf35db408028e9ff871abe44f823fcd5b7daf043bc2b759",
+        "Q05-03": "receita_bac84c55d13a7e81f6292bd46f5e87a8fe90749bb856e5334552062cc4eea2e7",
+        "Q05-04": "receita_15e3dbfec9b18dac39de08bbcb09e204d039d088bca56346d926def73f5017bc",
+        "Q05-05": "receita_1bb2c9fc35b5fbb0f7a7c0988df8f1c12e27ebbdd8f2e2321b9bff66b65d6565",
+        "Q05-06": "receita_d4c749cd91144b314103f423e3e017308ef7585abe72082e9622208ec4357497",
+        "Q05-07": "receita_e465618e0d4857a1eb93094fb7b6d1bd72966b8a094fd43966661561749812b9",
+        "Q05-08": "receita_1f9c5ae5448028fbb7fdd00e5926058482d72c9e2be937803c3b0ef71817e8eb",
+        "Q05-09": "receita_2afa9c87811600dd1c96246fa88dd67fed5ac84fb87047f92a6389841245df35"
+      }
+    },
+    "Q06": {
+      "consulta": "Quero preparar um bolo de banana",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_5e78c17ab5b1e017ce1721268daf2bd1e85f961ba9b68306a6fc3b4f7aa575ba",
+            "score": 8.904141749752972
+          },
+          {
+            "posicao": 2,
+            "id": "receita_d5042a944998f88aeddbc5bb8a7a71f8746f27117aaad454d603ca4a1756fc2d",
+            "score": 8.883114151571903
+          },
+          {
+            "posicao": 3,
+            "id": "receita_3673b955c611b446d809c096bec9cb704fc144d8c70e14ec72b7b4795ce807fa",
+            "score": 8.141611536320873
+          },
+          {
+            "posicao": 4,
+            "id": "receita_b5a0eb72cbcd74d024489309af7f492fde86184fa85f0ee014f8bec9b5f66141",
+            "score": 7.3922684106240455
+          },
+          {
+            "posicao": 5,
+            "id": "receita_2248e50e5d21caf3f6904dacf51ccd8bcf49a94f51c5b1eff01eb6f5c5034f49",
+            "score": 7.120089668585602
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_d5042a944998f88aeddbc5bb8a7a71f8746f27117aaad454d603ca4a1756fc2d",
+            "score": 0.9101179242134094
+          },
+          {
+            "posicao": 2,
+            "id": "receita_3673b955c611b446d809c096bec9cb704fc144d8c70e14ec72b7b4795ce807fa",
+            "score": 0.906996488571167
+          },
+          {
+            "posicao": 3,
+            "id": "receita_6c380fae13ba9c0f8ef3b83099a29652d9892e6f5fbba138f5d1f27a072071db",
+            "score": 0.9064263105392456
+          },
+          {
+            "posicao": 4,
+            "id": "receita_b5a0eb72cbcd74d024489309af7f492fde86184fa85f0ee014f8bec9b5f66141",
+            "score": 0.904698371887207
+          },
+          {
+            "posicao": 5,
+            "id": "receita_af4e13ee3ccf4cf8f2b2ffa5039a560c23493e5c7dfa6efeee4d192a52e5df63",
+            "score": 0.8983653783798218
+          }
+        ]
+      },
+      "itens": {
+        "Q06-01": "receita_5e78c17ab5b1e017ce1721268daf2bd1e85f961ba9b68306a6fc3b4f7aa575ba",
+        "Q06-02": "receita_af4e13ee3ccf4cf8f2b2ffa5039a560c23493e5c7dfa6efeee4d192a52e5df63",
+        "Q06-03": "receita_b5a0eb72cbcd74d024489309af7f492fde86184fa85f0ee014f8bec9b5f66141",
+        "Q06-04": "receita_3673b955c611b446d809c096bec9cb704fc144d8c70e14ec72b7b4795ce807fa",
+        "Q06-05": "receita_6c380fae13ba9c0f8ef3b83099a29652d9892e6f5fbba138f5d1f27a072071db",
+        "Q06-06": "receita_d5042a944998f88aeddbc5bb8a7a71f8746f27117aaad454d603ca4a1756fc2d",
+        "Q06-07": "receita_2248e50e5d21caf3f6904dacf51ccd8bcf49a94f51c5b1eff01eb6f5c5034f49"
+      }
+    },
+    "Q07": {
+      "consulta": "Quero uma berinjela assada",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_d335248de194c9ad2b6bffd7101186c50cf0e24515a9e3fa2f4c3d061e36e06a",
+            "score": 9.996799496679875
+          },
+          {
+            "posicao": 2,
+            "id": "receita_bd2598ad15d6ec6e44bf9910bc6dfe40d754b6a1197db132e4194da164aeb98e",
+            "score": 9.026740790363403
+          },
+          {
+            "posicao": 3,
+            "id": "receita_4af1c377acb7263113b642578cd1e0ac9947cc36474824e7c94142dd9e56a750",
+            "score": 8.511204812627097
+          },
+          {
+            "posicao": 4,
+            "id": "receita_71959be9af4efe42cfac06c9cb988f47f435fbb38f5cf4b8ab71d43b5bcdceb9",
+            "score": 8.40952479867074
+          },
+          {
+            "posicao": 5,
+            "id": "receita_15cc288eebd3cc742095d8f4ce06398d2cf091a28c6ce8d2324e331890630160",
+            "score": 8.371755284709327
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_d335248de194c9ad2b6bffd7101186c50cf0e24515a9e3fa2f4c3d061e36e06a",
+            "score": 0.8694154024124146
+          },
+          {
+            "posicao": 2,
+            "id": "receita_4af1c377acb7263113b642578cd1e0ac9947cc36474824e7c94142dd9e56a750",
+            "score": 0.8622987866401672
+          },
+          {
+            "posicao": 3,
+            "id": "receita_b337680549efeb9d04f299a9379301e32d847ebfb45670324ec8e9b006782d47",
+            "score": 0.8603681325912476
+          },
+          {
+            "posicao": 4,
+            "id": "receita_5821965b616de45aa93b0e2314cda21ab39ccc581564e6de5c670556d7e2c813",
+            "score": 0.8588298559188843
+          },
+          {
+            "posicao": 5,
+            "id": "receita_2ef1974baff499779db18e73da5049cd5d5fad434d1bdf29c1c594dafe7b14f1",
+            "score": 0.8584799766540527
+          }
+        ]
+      },
+      "itens": {
+        "Q07-01": "receita_5821965b616de45aa93b0e2314cda21ab39ccc581564e6de5c670556d7e2c813",
+        "Q07-02": "receita_2ef1974baff499779db18e73da5049cd5d5fad434d1bdf29c1c594dafe7b14f1",
+        "Q07-03": "receita_b337680549efeb9d04f299a9379301e32d847ebfb45670324ec8e9b006782d47",
+        "Q07-04": "receita_4af1c377acb7263113b642578cd1e0ac9947cc36474824e7c94142dd9e56a750",
+        "Q07-05": "receita_bd2598ad15d6ec6e44bf9910bc6dfe40d754b6a1197db132e4194da164aeb98e",
+        "Q07-06": "receita_d335248de194c9ad2b6bffd7101186c50cf0e24515a9e3fa2f4c3d061e36e06a",
+        "Q07-07": "receita_15cc288eebd3cc742095d8f4ce06398d2cf091a28c6ce8d2324e331890630160",
+        "Q07-08": "receita_71959be9af4efe42cfac06c9cb988f47f435fbb38f5cf4b8ab71d43b5bcdceb9"
+      }
+    },
+    "Q08": {
+      "consulta": "Como preparo creme de milho verde?",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_6625f2a8e9867807258dae0b6e35f91e1a9ce3659c7cdd73aef01f308d16fda7",
+            "score": 11.697337354925978
+          },
+          {
+            "posicao": 2,
+            "id": "receita_40a1ecc2982bb627da8bb3d89860eb936ea3165272342988163ec7789d44ae19",
+            "score": 10.381424959309653
+          },
+          {
+            "posicao": 3,
+            "id": "receita_8164db8ca30d3b894071105dee4bbf1d7520b1afaccef7c9289014fca5f762fd",
+            "score": 9.985064872493801
+          },
+          {
+            "posicao": 4,
+            "id": "receita_5a237ebe078e1e47728af7aa53f7c0abdaefa8adcd0a9092477f711924abb310",
+            "score": 9.879880714670168
+          },
+          {
+            "posicao": 5,
+            "id": "receita_a56df3ceed6eb66d5d0a65b5e5df220d233d55002751e4af8660d00f45be616c",
+            "score": 9.459947767965959
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_40a1ecc2982bb627da8bb3d89860eb936ea3165272342988163ec7789d44ae19",
+            "score": 0.9244881868362427
+          },
+          {
+            "posicao": 2,
+            "id": "receita_a56df3ceed6eb66d5d0a65b5e5df220d233d55002751e4af8660d00f45be616c",
+            "score": 0.9178869724273682
+          },
+          {
+            "posicao": 3,
+            "id": "receita_6625f2a8e9867807258dae0b6e35f91e1a9ce3659c7cdd73aef01f308d16fda7",
+            "score": 0.9167291522026062
+          },
+          {
+            "posicao": 4,
+            "id": "receita_8164db8ca30d3b894071105dee4bbf1d7520b1afaccef7c9289014fca5f762fd",
+            "score": 0.9109061360359192
+          },
+          {
+            "posicao": 5,
+            "id": "receita_9ee46f73c0a3fa055763cc0729c43ed6d52470d3a1b53a70fdbb9798f00071e4",
+            "score": 0.904384970664978
+          }
+        ]
+      },
+      "itens": {
+        "Q08-01": "receita_9ee46f73c0a3fa055763cc0729c43ed6d52470d3a1b53a70fdbb9798f00071e4",
+        "Q08-02": "receita_a56df3ceed6eb66d5d0a65b5e5df220d233d55002751e4af8660d00f45be616c",
+        "Q08-03": "receita_6625f2a8e9867807258dae0b6e35f91e1a9ce3659c7cdd73aef01f308d16fda7",
+        "Q08-04": "receita_40a1ecc2982bb627da8bb3d89860eb936ea3165272342988163ec7789d44ae19",
+        "Q08-05": "receita_8164db8ca30d3b894071105dee4bbf1d7520b1afaccef7c9289014fca5f762fd",
+        "Q08-06": "receita_5a237ebe078e1e47728af7aa53f7c0abdaefa8adcd0a9092477f711924abb310"
+      }
+    },
+    "Q09": {
+      "consulta": "Queria uma sopa de jerimum",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_ab1af3846065990100aab763c98393f080f3c9e4a28b7672fc3ecff636dca354",
+            "score": 2.2143596072522405
+          },
+          {
+            "posicao": 2,
+            "id": "receita_c28672c6e2050317e4dfa80f34ac968a4b920f417b84733ffd33dec28d8e6658",
+            "score": 2.2099815867476753
+          },
+          {
+            "posicao": 3,
+            "id": "receita_3766b15a21160dd2379b4abb9736f53de1c59253382aba31d3737d2a801eb8fb",
+            "score": 2.1850562796313673
+          },
+          {
+            "posicao": 4,
+            "id": "receita_775f3e945ef6dc73e51a95db6b899ef9369531fddd12c8301de854e4033ed398",
+            "score": 2.157794637601618
+          },
+          {
+            "posicao": 5,
+            "id": "receita_4f3e431f15a83fe608ea5a53d075fa802f782f0cc73ededf8930e4a9d4b7d6ef",
+            "score": 2.1569760681908763
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_be3f2334a6f2f6d84752e4aeade7a093555348123ada4aa61882816ec6c0e44d",
+            "score": 0.868669867515564
+          },
+          {
+            "posicao": 2,
+            "id": "receita_ec2ed5e34470d8c4ce088327ae86309073f2bf0cbc246c8e60c33954732a914c",
+            "score": 0.8681146502494812
+          },
+          {
+            "posicao": 3,
+            "id": "receita_26446fabea8ad24ab419aed9cd2a5fc540ba8bfe108c145b7f78a65a477fb691",
+            "score": 0.8670682311058044
+          },
+          {
+            "posicao": 4,
+            "id": "receita_721208c9eaf17b86f863b99cccf3c2055c8a1e14c4a1c3a32a7d0ef6d03c5ff0",
+            "score": 0.8656516671180725
+          },
+          {
+            "posicao": 5,
+            "id": "receita_6c09c26af65731a0ad540607ba6ede179baf0dca620746ec3b9c348257c36adb",
+            "score": 0.863744854927063
+          }
+        ]
+      },
+      "itens": {
+        "Q09-01": "receita_3766b15a21160dd2379b4abb9736f53de1c59253382aba31d3737d2a801eb8fb",
+        "Q09-02": "receita_be3f2334a6f2f6d84752e4aeade7a093555348123ada4aa61882816ec6c0e44d",
+        "Q09-03": "receita_775f3e945ef6dc73e51a95db6b899ef9369531fddd12c8301de854e4033ed398",
+        "Q09-04": "receita_6c09c26af65731a0ad540607ba6ede179baf0dca620746ec3b9c348257c36adb",
+        "Q09-05": "receita_c28672c6e2050317e4dfa80f34ac968a4b920f417b84733ffd33dec28d8e6658",
+        "Q09-06": "receita_721208c9eaf17b86f863b99cccf3c2055c8a1e14c4a1c3a32a7d0ef6d03c5ff0",
+        "Q09-07": "receita_ab1af3846065990100aab763c98393f080f3c9e4a28b7672fc3ecff636dca354",
+        "Q09-08": "receita_ec2ed5e34470d8c4ce088327ae86309073f2bf0cbc246c8e60c33954732a914c",
+        "Q09-09": "receita_26446fabea8ad24ab419aed9cd2a5fc540ba8bfe108c145b7f78a65a477fb691",
+        "Q09-10": "receita_4f3e431f15a83fe608ea5a53d075fa802f782f0cc73ededf8930e4a9d4b7d6ef"
+      }
+    },
+    "Q10": {
+      "consulta": "Como faço gelado de morango?",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_8b276e30f626288c1e6f95dee18668a6b2f617449a68c963871225b1f261fa65",
+            "score": 10.84415317315085
+          },
+          {
+            "posicao": 2,
+            "id": "receita_eaca0b6d8a470f4e15503b81b83c782bc20195e555019df2944d94ecec128266",
+            "score": 10.679273417550817
+          },
+          {
+            "posicao": 3,
+            "id": "receita_e8f4488ba85bcbf4a534b757187daf6d24457c9dde39a6ad837564fdaa077ab7",
+            "score": 10.38043019771786
+          },
+          {
+            "posicao": 4,
+            "id": "receita_0d2bce2f0338680541bd0cf6b26439e18ba0d0e75751a4480e01583ea09f0c8c",
+            "score": 9.620014723750842
+          },
+          {
+            "posicao": 5,
+            "id": "receita_4c68682b30802523090c190419ab1130b78794ccd6de6acd5e50ce86de113e6f",
+            "score": 9.312410006313652
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_c91b9e79b473fc3ff35a3ca3c4d14d4937002da9582ab5a3fad523e98ddb2ff2",
+            "score": 0.9171777963638306
+          },
+          {
+            "posicao": 2,
+            "id": "receita_19ff76a0e5eefcc9846e5c2ce5b57cf04b1f8225233f43b259c8b20f8a34f7fc",
+            "score": 0.9125530123710632
+          },
+          {
+            "posicao": 3,
+            "id": "receita_1902d000364d8ee629e7af2f0c23caf707200be80800ed3c4c64248c14d47f19",
+            "score": 0.9075883030891418
+          },
+          {
+            "posicao": 4,
+            "id": "receita_a78bcdd7b52e6d07dfa67429dc94255446efacbed7d1af343bb505c74e1433a5",
+            "score": 0.9068098664283752
+          },
+          {
+            "posicao": 5,
+            "id": "receita_5eab9e6c41f974f895eef39eedb4a8b476f371d10210e2d51fa741df0a3ffe7e",
+            "score": 0.9048069715499878
+          }
+        ]
+      },
+      "itens": {
+        "Q10-01": "receita_a78bcdd7b52e6d07dfa67429dc94255446efacbed7d1af343bb505c74e1433a5",
+        "Q10-02": "receita_5eab9e6c41f974f895eef39eedb4a8b476f371d10210e2d51fa741df0a3ffe7e",
+        "Q10-03": "receita_4c68682b30802523090c190419ab1130b78794ccd6de6acd5e50ce86de113e6f",
+        "Q10-04": "receita_0d2bce2f0338680541bd0cf6b26439e18ba0d0e75751a4480e01583ea09f0c8c",
+        "Q10-05": "receita_c91b9e79b473fc3ff35a3ca3c4d14d4937002da9582ab5a3fad523e98ddb2ff2",
+        "Q10-06": "receita_e8f4488ba85bcbf4a534b757187daf6d24457c9dde39a6ad837564fdaa077ab7",
+        "Q10-07": "receita_1902d000364d8ee629e7af2f0c23caf707200be80800ed3c4c64248c14d47f19",
+        "Q10-08": "receita_19ff76a0e5eefcc9846e5c2ce5b57cf04b1f8225233f43b259c8b20f8a34f7fc",
+        "Q10-09": "receita_8b276e30f626288c1e6f95dee18668a6b2f617449a68c963871225b1f261fa65",
+        "Q10-10": "receita_eaca0b6d8a470f4e15503b81b83c782bc20195e555019df2944d94ecec128266"
+      }
+    },
+    "Q11": {
+      "consulta": "Procuro bolachas de coco",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_eed0f5fba221268c38769a15d4c5eb021d7b304ffc1bf9dde2cf5ccf7cfe1cbc",
+            "score": 8.984560618365515
+          },
+          {
+            "posicao": 2,
+            "id": "receita_26828b8a70b9c093f0eedfe24a53508799b4ee1d44f90d3d50a1a11cdc4854c7",
+            "score": 8.209337101611018
+          },
+          {
+            "posicao": 3,
+            "id": "receita_a6428e4db4e12c59635b2498957beafd947f181519cfd16364c7aae5dfdc93c2",
+            "score": 7.7375952149621705
+          },
+          {
+            "posicao": 4,
+            "id": "receita_e03d620b05cac2ff9b1529d9c9c5fb19c4effda09c404a95eab4136378e7ed33",
+            "score": 7.670527067312369
+          },
+          {
+            "posicao": 5,
+            "id": "receita_2b3495d5a20900fd59fb3ca300b1ee93dbfb193c037de85e8229000c3bf1d289",
+            "score": 7.5150269371282805
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_8c970571dbb0c29d5a40a73ec37dc30c4fcd5a3d2f1ccd5be15f2721869c488b",
+            "score": 0.8898299932479858
+          },
+          {
+            "posicao": 2,
+            "id": "receita_8a44fd0a42b2ffb1096461bf1ba790568ff6ffc795d417a4b74a81b46ff67a66",
+            "score": 0.8880360722541809
+          },
+          {
+            "posicao": 3,
+            "id": "receita_eb70d3f12d5f74b8a10be46513e29373eb7aaa3f9967edf0b6465da36212ee32",
+            "score": 0.8868969082832336
+          },
+          {
+            "posicao": 4,
+            "id": "receita_07da9e05fe043072e442ee3f13cec235099a5adf9cb590e34d962c7330075f3f",
+            "score": 0.881374716758728
+          },
+          {
+            "posicao": 5,
+            "id": "receita_37dba134fabda1fc750b32f9bd2fce86d3d9754f126e1cbfcb8feb4ddc1b63a3",
+            "score": 0.8800890445709229
+          }
+        ]
+      },
+      "itens": {
+        "Q11-01": "receita_e03d620b05cac2ff9b1529d9c9c5fb19c4effda09c404a95eab4136378e7ed33",
+        "Q11-02": "receita_37dba134fabda1fc750b32f9bd2fce86d3d9754f126e1cbfcb8feb4ddc1b63a3",
+        "Q11-03": "receita_8a44fd0a42b2ffb1096461bf1ba790568ff6ffc795d417a4b74a81b46ff67a66",
+        "Q11-04": "receita_26828b8a70b9c093f0eedfe24a53508799b4ee1d44f90d3d50a1a11cdc4854c7",
+        "Q11-05": "receita_8c970571dbb0c29d5a40a73ec37dc30c4fcd5a3d2f1ccd5be15f2721869c488b",
+        "Q11-06": "receita_eed0f5fba221268c38769a15d4c5eb021d7b304ffc1bf9dde2cf5ccf7cfe1cbc",
+        "Q11-07": "receita_07da9e05fe043072e442ee3f13cec235099a5adf9cb590e34d962c7330075f3f",
+        "Q11-08": "receita_a6428e4db4e12c59635b2498957beafd947f181519cfd16364c7aae5dfdc93c2",
+        "Q11-09": "receita_eb70d3f12d5f74b8a10be46513e29373eb7aaa3f9967edf0b6465da36212ee32",
+        "Q11-10": "receita_2b3495d5a20900fd59fb3ca300b1ee93dbfb193c037de85e8229000c3bf1d289"
+      }
+    },
+    "Q12": {
+      "consulta": "Queria um croquete de carne picada",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_148552d71bca0967669b5830a95673e273fb0408084b80d6bafd04c7706893a4",
+            "score": 12.624673592443832
+          },
+          {
+            "posicao": 2,
+            "id": "receita_a86d4068be39b240111880a5987df362a71b7f681e5b5ac47ce5396422822e32",
+            "score": 11.242580995315203
+          },
+          {
+            "posicao": 3,
+            "id": "receita_87b4c96a60e9c8055416834023779b9d094e4fd7a3f2eda70c642b0950aff736",
+            "score": 9.893756399251712
+          },
+          {
+            "posicao": 4,
+            "id": "receita_775f3e945ef6dc73e51a95db6b899ef9369531fddd12c8301de854e4033ed398",
+            "score": 8.62819416253232
+          },
+          {
+            "posicao": 5,
+            "id": "receita_42d909b64e91e0e8792c35bacdb579161c8117b1d2972f225c479b79c57fe61a",
+            "score": 8.363883686360246
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_87b4c96a60e9c8055416834023779b9d094e4fd7a3f2eda70c642b0950aff736",
+            "score": 0.8876981139183044
+          },
+          {
+            "posicao": 2,
+            "id": "receita_6f1bed6fa32ac68af1c957ba3e9f1ca790675c7c41ea078fe7cbc9a7516eea53",
+            "score": 0.8847073316574097
+          },
+          {
+            "posicao": 3,
+            "id": "receita_a86d4068be39b240111880a5987df362a71b7f681e5b5ac47ce5396422822e32",
+            "score": 0.8839306831359863
+          },
+          {
+            "posicao": 4,
+            "id": "receita_38a386239e58569b5879ecc7b40a2ddeba7c443929e85dd38a8d6ccecb1f7cac",
+            "score": 0.8826308250427246
+          },
+          {
+            "posicao": 5,
+            "id": "receita_a8f5790c2be5d9c4770e7995a13fd5c35967169963f0dfdfa154df8a5a53fa4a",
+            "score": 0.8799425363540649
+          }
+        ]
+      },
+      "itens": {
+        "Q12-01": "receita_a86d4068be39b240111880a5987df362a71b7f681e5b5ac47ce5396422822e32",
+        "Q12-02": "receita_148552d71bca0967669b5830a95673e273fb0408084b80d6bafd04c7706893a4",
+        "Q12-03": "receita_38a386239e58569b5879ecc7b40a2ddeba7c443929e85dd38a8d6ccecb1f7cac",
+        "Q12-04": "receita_42d909b64e91e0e8792c35bacdb579161c8117b1d2972f225c479b79c57fe61a",
+        "Q12-05": "receita_775f3e945ef6dc73e51a95db6b899ef9369531fddd12c8301de854e4033ed398",
+        "Q12-06": "receita_6f1bed6fa32ac68af1c957ba3e9f1ca790675c7c41ea078fe7cbc9a7516eea53",
+        "Q12-07": "receita_87b4c96a60e9c8055416834023779b9d094e4fd7a3f2eda70c642b0950aff736",
+        "Q12-08": "receita_a8f5790c2be5d9c4770e7995a13fd5c35967169963f0dfdfa154df8a5a53fa4a"
+      }
+    },
+    "Q13": {
+      "consulta": "Como preparar curgete recheada?",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_eab6e63a5244f1af6361aba12e5ca50b55a727f61660a243e4bdf2d706cf894a",
+            "score": 7.707032207834933
+          },
+          {
+            "posicao": 2,
+            "id": "receita_f75a3e75dd7eb102cb0a446f62b239c2959693315829d4b0e34c2ff53e4cf20c",
+            "score": 7.11193846754028
+          },
+          {
+            "posicao": 3,
+            "id": "receita_6f1bed6fa32ac68af1c957ba3e9f1ca790675c7c41ea078fe7cbc9a7516eea53",
+            "score": 7.068559350886673
+          },
+          {
+            "posicao": 4,
+            "id": "receita_3ebfea504521b339d7a3ec326a1f0d9e74f5037a58e803d4fccabb2b2a5b9a73",
+            "score": 6.985039239836976
+          },
+          {
+            "posicao": 5,
+            "id": "receita_494e631c9713faa656fadb130be6f3f9313e029f1676eebf63402e0e721c505f",
+            "score": 6.680458617149913
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_634a9e5f30e42f55420791e44b557cfc2266a4825100e918d8077cc142900160",
+            "score": 0.8739311695098877
+          },
+          {
+            "posicao": 2,
+            "id": "receita_cef21bcf5a0b372d80ec5dfab405b369011a22176300898288ecfcbcce0d1e74",
+            "score": 0.8728503584861755
+          },
+          {
+            "posicao": 3,
+            "id": "receita_ef9ed6e0605971e7fa0b320ae5cfb5f1671b66d22f5e9edca5895a791a71559e",
+            "score": 0.8716196417808533
+          },
+          {
+            "posicao": 4,
+            "id": "receita_55197025aebcf5ad72dcf33f89f8821bff969205bf2c9a6f8c130367fb13a963",
+            "score": 0.8702940940856934
+          },
+          {
+            "posicao": 5,
+            "id": "receita_6f1bed6fa32ac68af1c957ba3e9f1ca790675c7c41ea078fe7cbc9a7516eea53",
+            "score": 0.8692831993103027
+          }
+        ]
+      },
+      "itens": {
+        "Q13-01": "receita_55197025aebcf5ad72dcf33f89f8821bff969205bf2c9a6f8c130367fb13a963",
+        "Q13-02": "receita_f75a3e75dd7eb102cb0a446f62b239c2959693315829d4b0e34c2ff53e4cf20c",
+        "Q13-03": "receita_634a9e5f30e42f55420791e44b557cfc2266a4825100e918d8077cc142900160",
+        "Q13-04": "receita_3ebfea504521b339d7a3ec326a1f0d9e74f5037a58e803d4fccabb2b2a5b9a73",
+        "Q13-05": "receita_6f1bed6fa32ac68af1c957ba3e9f1ca790675c7c41ea078fe7cbc9a7516eea53",
+        "Q13-06": "receita_cef21bcf5a0b372d80ec5dfab405b369011a22176300898288ecfcbcce0d1e74",
+        "Q13-07": "receita_eab6e63a5244f1af6361aba12e5ca50b55a727f61660a243e4bdf2d706cf894a",
+        "Q13-08": "receita_494e631c9713faa656fadb130be6f3f9313e029f1676eebf63402e0e721c505f",
+        "Q13-09": "receita_ef9ed6e0605971e7fa0b320ae5cfb5f1671b66d22f5e9edca5895a791a71559e"
+      }
+    },
+    "Q14": {
+      "consulta": "Como faço pão de batata-baroa?",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_9d46ca2346d8de292615830de078e5625d9cc525bbca0fb2d2c85ddc748b3f14",
+            "score": 8.626260536685843
+          },
+          {
+            "posicao": 2,
+            "id": "receita_c14762609fd6c2601c95a17b4722dfb5ebfc88a1f4d47c203c9e8f06ba34a838",
+            "score": 8.451784910140347
+          },
+          {
+            "posicao": 3,
+            "id": "receita_5545149858e4700cc65e53c3a481f880e75c9a2bd79de8020c908edcf5eb8f43",
+            "score": 8.129385329016369
+          },
+          {
+            "posicao": 4,
+            "id": "receita_71b400066f6b2969c6301e81eb279c10d717c3f891420066d55f4ae6ed4dd8cd",
+            "score": 7.887008896110228
+          },
+          {
+            "posicao": 5,
+            "id": "receita_15e3dbfec9b18dac39de08bbcb09e204d039d088bca56346d926def73f5017bc",
+            "score": 7.712613059613362
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_2b189e710b03e2c9fe6a359dade20207b71c7e92ce959af39a250703acae1ed2",
+            "score": 0.8932912349700928
+          },
+          {
+            "posicao": 2,
+            "id": "receita_3e577bf547448cc920f5b6c6c4bd772599b7ef367c54fc58e849a2ef1a6f767b",
+            "score": 0.8893426656723022
+          },
+          {
+            "posicao": 3,
+            "id": "receita_124b93fec7d7e6780aa8d4f59f94fd524b53cb1e02373193180b7268c9d0908f",
+            "score": 0.8866831064224243
+          },
+          {
+            "posicao": 4,
+            "id": "receita_1701155356d6b8da2f4d49f4644827905d4ec00fc72dbf2f268057575ffff9bb",
+            "score": 0.8856125473976135
+          },
+          {
+            "posicao": 5,
+            "id": "receita_db93d0574dd3ca2a2c54e725b9aac8f3324a820ef0427a8a0be7cd243a40aefc",
+            "score": 0.8853405714035034
+          }
+        ]
+      },
+      "itens": {
+        "Q14-01": "receita_c14762609fd6c2601c95a17b4722dfb5ebfc88a1f4d47c203c9e8f06ba34a838",
+        "Q14-02": "receita_15e3dbfec9b18dac39de08bbcb09e204d039d088bca56346d926def73f5017bc",
+        "Q14-03": "receita_2b189e710b03e2c9fe6a359dade20207b71c7e92ce959af39a250703acae1ed2",
+        "Q14-04": "receita_9d46ca2346d8de292615830de078e5625d9cc525bbca0fb2d2c85ddc748b3f14",
+        "Q14-05": "receita_3e577bf547448cc920f5b6c6c4bd772599b7ef367c54fc58e849a2ef1a6f767b",
+        "Q14-06": "receita_db93d0574dd3ca2a2c54e725b9aac8f3324a820ef0427a8a0be7cd243a40aefc",
+        "Q14-07": "receita_1701155356d6b8da2f4d49f4644827905d4ec00fc72dbf2f268057575ffff9bb",
+        "Q14-08": "receita_5545149858e4700cc65e53c3a481f880e75c9a2bd79de8020c908edcf5eb8f43",
+        "Q14-09": "receita_124b93fec7d7e6780aa8d4f59f94fd524b53cb1e02373193180b7268c9d0908f",
+        "Q14-10": "receita_71b400066f6b2969c6301e81eb279c10d717c3f891420066d55f4ae6ed4dd8cd"
+      }
+    },
+    "Q15": {
+      "consulta": "Procuro um gelado de mexerica",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_c5e5099607f048703e91de93ed4d5b4997062a823aa3e576894681c787df86bf",
+            "score": 9.812140333898812
+          },
+          {
+            "posicao": 2,
+            "id": "receita_52359f8d122264003e0fa256b1be168200a8c981455e3e9f07b238678266e6ce",
+            "score": 5.462490832401345
+          },
+          {
+            "posicao": 3,
+            "id": "receita_591c7710456408fcafaee0fea9d98ed216b56b7be0cdb1db92d5e85de741048b",
+            "score": 5.152744784958322
+          },
+          {
+            "posicao": 4,
+            "id": "receita_bb740c1ce110fec48eec83c1718f5720e2f7ee0d58152aed5b601270d96061fd",
+            "score": 5.138801690571865
+          },
+          {
+            "posicao": 5,
+            "id": "receita_531f4ac104631a64a4a00a21ad57fc2ecb584769af744ea01a4149c2e0dbff01",
+            "score": 5.063782425573523
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_0d1bec2b8381344f7d0a700b0e7b148a48ebde65e6c1ef4bc1e058a5e276cab4",
+            "score": 0.8769687414169312
+          },
+          {
+            "posicao": 2,
+            "id": "receita_903e9e74b9c2b7aed30d0545348d49f514e9f09be6677bf4c9a9116e33e7fa9b",
+            "score": 0.8766040802001953
+          },
+          {
+            "posicao": 3,
+            "id": "receita_fe85edc18d14a6d512a94537b6c721e75e6ffe1db43f188f4e2bec18d655072c",
+            "score": 0.8765829205513
+          },
+          {
+            "posicao": 4,
+            "id": "receita_1902d000364d8ee629e7af2f0c23caf707200be80800ed3c4c64248c14d47f19",
+            "score": 0.8760849237442017
+          },
+          {
+            "posicao": 5,
+            "id": "receita_ec2ed5e34470d8c4ce088327ae86309073f2bf0cbc246c8e60c33954732a914c",
+            "score": 0.8757913112640381
+          }
+        ]
+      },
+      "itens": {
+        "Q15-01": "receita_531f4ac104631a64a4a00a21ad57fc2ecb584769af744ea01a4149c2e0dbff01",
+        "Q15-02": "receita_903e9e74b9c2b7aed30d0545348d49f514e9f09be6677bf4c9a9116e33e7fa9b",
+        "Q15-03": "receita_bb740c1ce110fec48eec83c1718f5720e2f7ee0d58152aed5b601270d96061fd",
+        "Q15-04": "receita_0d1bec2b8381344f7d0a700b0e7b148a48ebde65e6c1ef4bc1e058a5e276cab4",
+        "Q15-05": "receita_ec2ed5e34470d8c4ce088327ae86309073f2bf0cbc246c8e60c33954732a914c",
+        "Q15-06": "receita_52359f8d122264003e0fa256b1be168200a8c981455e3e9f07b238678266e6ce",
+        "Q15-07": "receita_fe85edc18d14a6d512a94537b6c721e75e6ffe1db43f188f4e2bec18d655072c",
+        "Q15-08": "receita_591c7710456408fcafaee0fea9d98ed216b56b7be0cdb1db92d5e85de741048b",
+        "Q15-09": "receita_1902d000364d8ee629e7af2f0c23caf707200be80800ed3c4c64248c14d47f19",
+        "Q15-10": "receita_c5e5099607f048703e91de93ed4d5b4997062a823aa3e576894681c787df86bf"
+      }
+    },
+    "Q16": {
+      "consulta": "Queria uma pasta de salsicha para passar no pão",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_d14de036cace8e3f43f96868fb87f3e8373e348bed26d88fa03219b8f1267c22",
+            "score": 12.62160584223158
+          },
+          {
+            "posicao": 2,
+            "id": "receita_755da4fc1ce9149b6b29e2bd28400bae64862f4ac5be13311be5d1e192128925",
+            "score": 11.43172311028153
+          },
+          {
+            "posicao": 3,
+            "id": "receita_4b814a4c9daf0ffe2898e2537c2ad5fc0c2843c4b14864bfea1a5cdb54194228",
+            "score": 11.257021457990625
+          },
+          {
+            "posicao": 4,
+            "id": "receita_d3efd92c3f23cdde5fffa948b6cc286c3ee7d9971bab3dc5279e611fb3ac5bac",
+            "score": 10.595163000266691
+          },
+          {
+            "posicao": 5,
+            "id": "receita_67c79541839ef96dd00650109c27bbb56cad7ccbdcbafd99eac39b1a70217d29",
+            "score": 10.249998580557872
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_d14de036cace8e3f43f96868fb87f3e8373e348bed26d88fa03219b8f1267c22",
+            "score": 0.8935022354125977
+          },
+          {
+            "posicao": 2,
+            "id": "receita_9a38b24c1a28b0284a422ca0c33347bd3af865f675991712f372a4c52787faad",
+            "score": 0.8804373741149902
+          },
+          {
+            "posicao": 3,
+            "id": "receita_3864a30b11e263f0c62c6659bbd270917fe255d965a2b7215fc185bb76d71cf2",
+            "score": 0.878558874130249
+          },
+          {
+            "posicao": 4,
+            "id": "receita_67c79541839ef96dd00650109c27bbb56cad7ccbdcbafd99eac39b1a70217d29",
+            "score": 0.8780321478843689
+          },
+          {
+            "posicao": 5,
+            "id": "receita_dc05945a55a76ac361039d4588c9a4442146fb5b20a1d98861d02689cc793cc5",
+            "score": 0.8767992854118347
+          }
+        ]
+      },
+      "itens": {
+        "Q16-01": "receita_9a38b24c1a28b0284a422ca0c33347bd3af865f675991712f372a4c52787faad",
+        "Q16-02": "receita_3864a30b11e263f0c62c6659bbd270917fe255d965a2b7215fc185bb76d71cf2",
+        "Q16-03": "receita_755da4fc1ce9149b6b29e2bd28400bae64862f4ac5be13311be5d1e192128925",
+        "Q16-04": "receita_67c79541839ef96dd00650109c27bbb56cad7ccbdcbafd99eac39b1a70217d29",
+        "Q16-05": "receita_dc05945a55a76ac361039d4588c9a4442146fb5b20a1d98861d02689cc793cc5",
+        "Q16-06": "receita_4b814a4c9daf0ffe2898e2537c2ad5fc0c2843c4b14864bfea1a5cdb54194228",
+        "Q16-07": "receita_d3efd92c3f23cdde5fffa948b6cc286c3ee7d9971bab3dc5279e611fb3ac5bac",
+        "Q16-08": "receita_d14de036cace8e3f43f96868fb87f3e8373e348bed26d88fa03219b8f1267c22"
+      }
+    },
+    "Q17": {
+      "consulta": "Tenho talos de espinafre e queria aproveitá-los no almoço",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_97f9f728c8bbd3f34659c59ac56fe6db0680f4f2365361e8b7a1c4efaac2405f",
+            "score": 13.681356431274834
+          },
+          {
+            "posicao": 2,
+            "id": "receita_4ef01dce14a90dbb6a5d0635b7761f9db2309011e997c5566b264b2b861fe4dc",
+            "score": 11.685269833890818
+          },
+          {
+            "posicao": 3,
+            "id": "receita_01a22d956b930d87eee6fc667f162f5b04d85174a052c0a8f3982e272ff5316f",
+            "score": 9.080110169725042
+          },
+          {
+            "posicao": 4,
+            "id": "receita_3f380cac7f39d0df2b63e4f45212f43c90a1c4a6f8446569341d9f7fae437ab6",
+            "score": 8.80641356561314
+          },
+          {
+            "posicao": 5,
+            "id": "receita_364f7d08c4e617692c2d549f2f427e89571470fb222ebc081b06b93b7829bd90",
+            "score": 8.564082231539984
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_97f9f728c8bbd3f34659c59ac56fe6db0680f4f2365361e8b7a1c4efaac2405f",
+            "score": 0.8654289245605469
+          },
+          {
+            "posicao": 2,
+            "id": "receita_e77f94436041c70971e4e490ee8437e5b81e01e9f34d7382927c0f2beffe30b8",
+            "score": 0.8616331219673157
+          },
+          {
+            "posicao": 3,
+            "id": "receita_70d5ec872017762e58ca70664066b245d3bba9a91161d0dda80e99896f4431b6",
+            "score": 0.8613376617431641
+          },
+          {
+            "posicao": 4,
+            "id": "receita_c105a6de0a08300d66fd4ecbaa66a9d9799442454534f4e8e7ff03929bd8825a",
+            "score": 0.8596943616867065
+          },
+          {
+            "posicao": 5,
+            "id": "receita_a2c07152d2af807c1bb8b3af069c57199923b103d6e06028f64c6d6756751c00",
+            "score": 0.8595486879348755
+          }
+        ]
+      },
+      "itens": {
+        "Q17-01": "receita_3f380cac7f39d0df2b63e4f45212f43c90a1c4a6f8446569341d9f7fae437ab6",
+        "Q17-02": "receita_c105a6de0a08300d66fd4ecbaa66a9d9799442454534f4e8e7ff03929bd8825a",
+        "Q17-03": "receita_70d5ec872017762e58ca70664066b245d3bba9a91161d0dda80e99896f4431b6",
+        "Q17-04": "receita_e77f94436041c70971e4e490ee8437e5b81e01e9f34d7382927c0f2beffe30b8",
+        "Q17-05": "receita_364f7d08c4e617692c2d549f2f427e89571470fb222ebc081b06b93b7829bd90",
+        "Q17-06": "receita_01a22d956b930d87eee6fc667f162f5b04d85174a052c0a8f3982e272ff5316f",
+        "Q17-07": "receita_4ef01dce14a90dbb6a5d0635b7761f9db2309011e997c5566b264b2b861fe4dc",
+        "Q17-08": "receita_a2c07152d2af807c1bb8b3af069c57199923b103d6e06028f64c6d6756751c00",
+        "Q17-09": "receita_97f9f728c8bbd3f34659c59ac56fe6db0680f4f2365361e8b7a1c4efaac2405f"
+      }
+    },
+    "Q18": {
+      "consulta": "Quero servir um legume com nozes por dentro",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_4a32edab2f49cc45f7972dd35b6a9c4ffd1dd46bed466026bd0d949e58de8635",
+            "score": 10.533222283709446
+          },
+          {
+            "posicao": 2,
+            "id": "receita_a8f901d1962acb23d41b92f0c6febf3aee7693e3d316a60c844bd8006c2a40fd",
+            "score": 9.123339304442101
+          },
+          {
+            "posicao": 3,
+            "id": "receita_7a1d6caf45e27739812b0240589385235ce185a17ebc567c9c6899e7c95e6b06",
+            "score": 8.975260524843925
+          },
+          {
+            "posicao": 4,
+            "id": "receita_59aeb724ba978b439d87c968414be58644605500a4287ea587734161992f02d2",
+            "score": 8.86870015081922
+          },
+          {
+            "posicao": 5,
+            "id": "receita_500e3becd65f84df9bfeaa8188637b441afd4a50cb84d203c3db981331ac2b7f",
+            "score": 8.786266927630406
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_3381eda13eb3f7ba7f3634dbbc8e3ca48f975fb72ad315e95d887b9ba919e187",
+            "score": 0.8748286962509155
+          },
+          {
+            "posicao": 2,
+            "id": "receita_c2a11e989872651a0a97cdf56cf62f20aeb972b4cad4382bdb66e433a21d03f7",
+            "score": 0.8715561628341675
+          },
+          {
+            "posicao": 3,
+            "id": "receita_721208c9eaf17b86f863b99cccf3c2055c8a1e14c4a1c3a32a7d0ef6d03c5ff0",
+            "score": 0.8711588382720947
+          },
+          {
+            "posicao": 4,
+            "id": "receita_8c9ea261759e05b14f47f93b457df19ba5b4f7f608445485df94ab602e69024d",
+            "score": 0.8703020811080933
+          },
+          {
+            "posicao": 5,
+            "id": "receita_dc05945a55a76ac361039d4588c9a4442146fb5b20a1d98861d02689cc793cc5",
+            "score": 0.8701788187026978
+          }
+        ]
+      },
+      "itens": {
+        "Q18-01": "receita_7a1d6caf45e27739812b0240589385235ce185a17ebc567c9c6899e7c95e6b06",
+        "Q18-02": "receita_59aeb724ba978b439d87c968414be58644605500a4287ea587734161992f02d2",
+        "Q18-03": "receita_4a32edab2f49cc45f7972dd35b6a9c4ffd1dd46bed466026bd0d949e58de8635",
+        "Q18-04": "receita_3381eda13eb3f7ba7f3634dbbc8e3ca48f975fb72ad315e95d887b9ba919e187",
+        "Q18-05": "receita_721208c9eaf17b86f863b99cccf3c2055c8a1e14c4a1c3a32a7d0ef6d03c5ff0",
+        "Q18-06": "receita_dc05945a55a76ac361039d4588c9a4442146fb5b20a1d98861d02689cc793cc5",
+        "Q18-07": "receita_8c9ea261759e05b14f47f93b457df19ba5b4f7f608445485df94ab602e69024d",
+        "Q18-08": "receita_500e3becd65f84df9bfeaa8188637b441afd4a50cb84d203c3db981331ac2b7f",
+        "Q18-09": "receita_a8f901d1962acb23d41b92f0c6febf3aee7693e3d316a60c844bd8006c2a40fd",
+        "Q18-10": "receita_c2a11e989872651a0a97cdf56cf62f20aeb972b4cad4382bdb66e433a21d03f7"
+      }
+    },
+    "Q19": {
+      "consulta": "Queria um doce de festa de coco que eu possa enrolar em bolinhas",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_73da1d13263f9fba4d38c6c463ed45a9d38bab832a177c9481cc40c2184d98c9",
+            "score": 13.954621765213158
+          },
+          {
+            "posicao": 2,
+            "id": "receita_bc75bab4c8bea235ab156b8d055a7f4065675dad894812a236cef9f520a63e3f",
+            "score": 13.627159955224268
+          },
+          {
+            "posicao": 3,
+            "id": "receita_9b7626370f11d2e3c1e148db589503c588efe1b55698030336c0034880063d0d",
+            "score": 13.521506755791608
+          },
+          {
+            "posicao": 4,
+            "id": "receita_be33d232b977b585ad0fe26aa79d8d2a05f1e5abee700ab507feb4e7f22f87c2",
+            "score": 13.337443699369382
+          },
+          {
+            "posicao": 5,
+            "id": "receita_c1af4b3fa94d88ce7c6f9d6a780dec63a5dc745a2db0681bbaacafc0924cb345",
+            "score": 13.004212762263442
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_b22ca6b7c692f20943dd35a2206dc0dc589c3a1404d14d97b35e535501bc6b91",
+            "score": 0.8775426745414734
+          },
+          {
+            "posicao": 2,
+            "id": "receita_c2a11e989872651a0a97cdf56cf62f20aeb972b4cad4382bdb66e433a21d03f7",
+            "score": 0.8726101517677307
+          },
+          {
+            "posicao": 3,
+            "id": "receita_07da9e05fe043072e442ee3f13cec235099a5adf9cb590e34d962c7330075f3f",
+            "score": 0.871889591217041
+          },
+          {
+            "posicao": 4,
+            "id": "receita_5298827e3f632d6145c259850758b93b781d625367312cfc61e7b5fc6d49d63e",
+            "score": 0.871845006942749
+          },
+          {
+            "posicao": 5,
+            "id": "receita_db7ab2742e6c4c06964cd69d6903326da3c2fb4f9f4717771360859b43f34ae9",
+            "score": 0.8717358708381653
+          }
+        ]
+      },
+      "itens": {
+        "Q19-01": "receita_b22ca6b7c692f20943dd35a2206dc0dc589c3a1404d14d97b35e535501bc6b91",
+        "Q19-02": "receita_c1af4b3fa94d88ce7c6f9d6a780dec63a5dc745a2db0681bbaacafc0924cb345",
+        "Q19-03": "receita_73da1d13263f9fba4d38c6c463ed45a9d38bab832a177c9481cc40c2184d98c9",
+        "Q19-04": "receita_07da9e05fe043072e442ee3f13cec235099a5adf9cb590e34d962c7330075f3f",
+        "Q19-05": "receita_bc75bab4c8bea235ab156b8d055a7f4065675dad894812a236cef9f520a63e3f",
+        "Q19-06": "receita_9b7626370f11d2e3c1e148db589503c588efe1b55698030336c0034880063d0d",
+        "Q19-07": "receita_c2a11e989872651a0a97cdf56cf62f20aeb972b4cad4382bdb66e433a21d03f7",
+        "Q19-08": "receita_db7ab2742e6c4c06964cd69d6903326da3c2fb4f9f4717771360859b43f34ae9",
+        "Q19-09": "receita_5298827e3f632d6145c259850758b93b781d625367312cfc61e7b5fc6d49d63e",
+        "Q19-10": "receita_be33d232b977b585ad0fe26aa79d8d2a05f1e5abee700ab507feb4e7f22f87c2"
+      }
+    },
+    "Q20": {
+      "consulta": "Quero bater a massa de um pão no liquidificador",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_e4822608797cca9a6229e9005c6352e506fe20e9cb4dea5da182ede0e36a8517",
+            "score": 9.978800125835784
+          },
+          {
+            "posicao": 2,
+            "id": "receita_32239dc973ed96ceb367c3997859fa960133678ac1d88c27a3cdefebc7a3b1cb",
+            "score": 9.404784726573608
+          },
+          {
+            "posicao": 3,
+            "id": "receita_b8d6f21234cf4a55685b1df3d43cbbfee2d7a77bcf750a57aae6d20807cecea3",
+            "score": 9.240344627901496
+          },
+          {
+            "posicao": 4,
+            "id": "receita_29b639e0e9088a288c11bdcac432faf7c9a7a7ae9669cc44ece136370e3dad1e",
+            "score": 9.173780319734465
+          },
+          {
+            "posicao": 5,
+            "id": "receita_56c0038e3a63de7314c2d0f86a37d0f00a36f313fa4eedf8c83e2bbd553888d0",
+            "score": 9.169578638244312
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_32239dc973ed96ceb367c3997859fa960133678ac1d88c27a3cdefebc7a3b1cb",
+            "score": 0.8945074081420898
+          },
+          {
+            "posicao": 2,
+            "id": "receita_d3c250594b667ebc13b2dc56f42390be936ce0410c692557c9cb72fd11ff0dd1",
+            "score": 0.8936615586280823
+          },
+          {
+            "posicao": 3,
+            "id": "receita_a5db47c23e08a3db0401eb06321e19bac1256de0f75180c54b397c01cfddd94d",
+            "score": 0.8898970484733582
+          },
+          {
+            "posicao": 4,
+            "id": "receita_1642649c9c6408e6da182237b743c24cb67a8f9b615fb2e687071b89b5514b57",
+            "score": 0.887989342212677
+          },
+          {
+            "posicao": 5,
+            "id": "receita_dc05945a55a76ac361039d4588c9a4442146fb5b20a1d98861d02689cc793cc5",
+            "score": 0.8871180415153503
+          }
+        ]
+      },
+      "itens": {
+        "Q20-01": "receita_dc05945a55a76ac361039d4588c9a4442146fb5b20a1d98861d02689cc793cc5",
+        "Q20-02": "receita_29b639e0e9088a288c11bdcac432faf7c9a7a7ae9669cc44ece136370e3dad1e",
+        "Q20-03": "receita_b8d6f21234cf4a55685b1df3d43cbbfee2d7a77bcf750a57aae6d20807cecea3",
+        "Q20-04": "receita_56c0038e3a63de7314c2d0f86a37d0f00a36f313fa4eedf8c83e2bbd553888d0",
+        "Q20-05": "receita_e4822608797cca9a6229e9005c6352e506fe20e9cb4dea5da182ede0e36a8517",
+        "Q20-06": "receita_a5db47c23e08a3db0401eb06321e19bac1256de0f75180c54b397c01cfddd94d",
+        "Q20-07": "receita_1642649c9c6408e6da182237b743c24cb67a8f9b615fb2e687071b89b5514b57",
+        "Q20-08": "receita_32239dc973ed96ceb367c3997859fa960133678ac1d88c27a3cdefebc7a3b1cb",
+        "Q20-09": "receita_d3c250594b667ebc13b2dc56f42390be936ce0410c692557c9cb72fd11ff0dd1"
+      }
+    },
+    "Q21": {
+      "consulta": "Quero uma bebida que combine café com uma bola de sorvete",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_e036e96079f500961b994213b8db213e147072e24701be38db7c4235a34b1557",
+            "score": 18.754937393350417
+          },
+          {
+            "posicao": 2,
+            "id": "receita_9750af6848eb96a6d8bd81343294290162fba695535761843f2003bf47c1db36",
+            "score": 12.608999541246458
+          },
+          {
+            "posicao": 3,
+            "id": "receita_d41c8c8fe495e16be399af30606d6d52ec6cc583361a6e746380c161a58204bc",
+            "score": 11.92150770331217
+          },
+          {
+            "posicao": 4,
+            "id": "receita_760dc918348241fbf3904e9585ea2bdf701a968986af0a2195d501628b4db95b",
+            "score": 11.787765467324991
+          },
+          {
+            "posicao": 5,
+            "id": "receita_d81fccdd558e9159ecf676664fe41123d536f36f85a4267221421627470e2e7d",
+            "score": 11.7087893062956
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_44d0b1daf5e19d9a76ca97fa968d6206184c3e728c0ef9d24058e3fb158fbbe0",
+            "score": 0.8914433717727661
+          },
+          {
+            "posicao": 2,
+            "id": "receita_70bc252aa9a9ce383a4a6411b08ad80248c6b8d28c36b875e6b504855f5e2260",
+            "score": 0.8774146437644958
+          },
+          {
+            "posicao": 3,
+            "id": "receita_7b123467fbb31dfae36c5f1488c042382dc6d1a72c5c2554321caf64d6203dad",
+            "score": 0.8757215738296509
+          },
+          {
+            "posicao": 4,
+            "id": "receita_e306f3b80e016c18e0c9aed564e2e13c04ab519b622e49d8369cd2f25f2446fb",
+            "score": 0.8757141828536987
+          },
+          {
+            "posicao": 5,
+            "id": "receita_c5c31c4bf52c4f18da0e7058ab79ab9b30ef24a692710afc9e537765d10304d5",
+            "score": 0.8756047487258911
+          }
+        ]
+      },
+      "itens": {
+        "Q21-01": "receita_e306f3b80e016c18e0c9aed564e2e13c04ab519b622e49d8369cd2f25f2446fb",
+        "Q21-02": "receita_c5c31c4bf52c4f18da0e7058ab79ab9b30ef24a692710afc9e537765d10304d5",
+        "Q21-03": "receita_70bc252aa9a9ce383a4a6411b08ad80248c6b8d28c36b875e6b504855f5e2260",
+        "Q21-04": "receita_44d0b1daf5e19d9a76ca97fa968d6206184c3e728c0ef9d24058e3fb158fbbe0",
+        "Q21-05": "receita_9750af6848eb96a6d8bd81343294290162fba695535761843f2003bf47c1db36",
+        "Q21-06": "receita_d81fccdd558e9159ecf676664fe41123d536f36f85a4267221421627470e2e7d",
+        "Q21-07": "receita_7b123467fbb31dfae36c5f1488c042382dc6d1a72c5c2554321caf64d6203dad",
+        "Q21-08": "receita_d41c8c8fe495e16be399af30606d6d52ec6cc583361a6e746380c161a58204bc",
+        "Q21-09": "receita_760dc918348241fbf3904e9585ea2bdf701a968986af0a2195d501628b4db95b",
+        "Q21-10": "receita_e036e96079f500961b994213b8db213e147072e24701be38db7c4235a34b1557"
+      }
+    },
+    "Q22": {
+      "consulta": "Tenho arroz e queria servir uma travessa que vai ao forno",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_d71fa033757802d74856c01d7ac077f6292ed4daebf68154e0fbd70e914b26dd",
+            "score": 12.026179195489098
+          },
+          {
+            "posicao": 2,
+            "id": "receita_eaa1defffecf8495861fb0b647877daa45f1fca376c6f2801a8e753c2a1cfcc2",
+            "score": 11.949620315177556
+          },
+          {
+            "posicao": 3,
+            "id": "receita_301b6a0dc495a7822be4defab3ba5a7b5a72a0fdf9019587663d15cef24b95b5",
+            "score": 11.313449030156974
+          },
+          {
+            "posicao": 4,
+            "id": "receita_c17cb34fbe930ccb6ef5fc6dbab789639aea31896ce042beb4827b769d15f587",
+            "score": 10.82712668281863
+          },
+          {
+            "posicao": 5,
+            "id": "receita_20db59b81514730551df07d04c44cb436071edc1068ce46c1e2360e74acbf3d6",
+            "score": 10.665239065786752
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_d71fa033757802d74856c01d7ac077f6292ed4daebf68154e0fbd70e914b26dd",
+            "score": 0.8719702363014221
+          },
+          {
+            "posicao": 2,
+            "id": "receita_e1958af4b0a918fc49792b012bb6885fcb880e60116a4e22a6177a33114c2997",
+            "score": 0.8717735409736633
+          },
+          {
+            "posicao": 3,
+            "id": "receita_0ad634624acebba78b7089bec421e1f4acce38413395838f27bcd19bb9f85b03",
+            "score": 0.8716938495635986
+          },
+          {
+            "posicao": 4,
+            "id": "receita_83d593dd8f1fd4433849c90ef3662a95af2e3f462ca0d23c60c368467574fa13",
+            "score": 0.8661056756973267
+          },
+          {
+            "posicao": 5,
+            "id": "receita_06aea247bfee5e0df0419778308b446aa25a8026111b2580d77d47bca7eb59e5",
+            "score": 0.8651933670043945
+          }
+        ]
+      },
+      "itens": {
+        "Q22-01": "receita_0ad634624acebba78b7089bec421e1f4acce38413395838f27bcd19bb9f85b03",
+        "Q22-02": "receita_83d593dd8f1fd4433849c90ef3662a95af2e3f462ca0d23c60c368467574fa13",
+        "Q22-03": "receita_c17cb34fbe930ccb6ef5fc6dbab789639aea31896ce042beb4827b769d15f587",
+        "Q22-04": "receita_06aea247bfee5e0df0419778308b446aa25a8026111b2580d77d47bca7eb59e5",
+        "Q22-05": "receita_eaa1defffecf8495861fb0b647877daa45f1fca376c6f2801a8e753c2a1cfcc2",
+        "Q22-06": "receita_d71fa033757802d74856c01d7ac077f6292ed4daebf68154e0fbd70e914b26dd",
+        "Q22-07": "receita_20db59b81514730551df07d04c44cb436071edc1068ce46c1e2360e74acbf3d6",
+        "Q22-08": "receita_e1958af4b0a918fc49792b012bb6885fcb880e60116a4e22a6177a33114c2997",
+        "Q22-09": "receita_301b6a0dc495a7822be4defab3ba5a7b5a72a0fdf9019587663d15cef24b95b5"
+      }
+    },
+    "Q23": {
+      "consulta": "Quero servir peixe com uma casquinha frita por fora",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_e44b2cec280a922e7a6255a1d042a74d5cac063ff9517fd5a978190b78d00525",
+            "score": 19.49686586827594
+          },
+          {
+            "posicao": 2,
+            "id": "receita_f540bfa266334d91dc6eacbe690585db760bd94f54d2536adf5a4ebb0d08f07a",
+            "score": 15.151038065737648
+          },
+          {
+            "posicao": 3,
+            "id": "receita_a2dc547cc11669a583fda7a29e266cc64aeba8282d6dd164c45684d693f847f5",
+            "score": 12.447698448303102
+          },
+          {
+            "posicao": 4,
+            "id": "receita_282b631bc5ff64ace09964442f1f79a1a7bc7670b0767477b32682f139d360d2",
+            "score": 12.428717729263141
+          },
+          {
+            "posicao": 5,
+            "id": "receita_b22223abcd294f2d12af445b34f8c5a50c52f5a0fdae164ec4e3aef96e9fd871",
+            "score": 12.118820201999808
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_2f128788a7db0f7f262919fc296933e3c27242a1ddfbd90024852161988de323",
+            "score": 0.877963662147522
+          },
+          {
+            "posicao": 2,
+            "id": "receita_e44b2cec280a922e7a6255a1d042a74d5cac063ff9517fd5a978190b78d00525",
+            "score": 0.8763011693954468
+          },
+          {
+            "posicao": 3,
+            "id": "receita_b22223abcd294f2d12af445b34f8c5a50c52f5a0fdae164ec4e3aef96e9fd871",
+            "score": 0.8731752634048462
+          },
+          {
+            "posicao": 4,
+            "id": "receita_282b631bc5ff64ace09964442f1f79a1a7bc7670b0767477b32682f139d360d2",
+            "score": 0.8728443384170532
+          },
+          {
+            "posicao": 5,
+            "id": "receita_bac84c55d13a7e81f6292bd46f5e87a8fe90749bb856e5334552062cc4eea2e7",
+            "score": 0.8711892366409302
+          }
+        ]
+      },
+      "itens": {
+        "Q23-01": "receita_2f128788a7db0f7f262919fc296933e3c27242a1ddfbd90024852161988de323",
+        "Q23-02": "receita_bac84c55d13a7e81f6292bd46f5e87a8fe90749bb856e5334552062cc4eea2e7",
+        "Q23-03": "receita_a2dc547cc11669a583fda7a29e266cc64aeba8282d6dd164c45684d693f847f5",
+        "Q23-04": "receita_b22223abcd294f2d12af445b34f8c5a50c52f5a0fdae164ec4e3aef96e9fd871",
+        "Q23-05": "receita_f540bfa266334d91dc6eacbe690585db760bd94f54d2536adf5a4ebb0d08f07a",
+        "Q23-06": "receita_e44b2cec280a922e7a6255a1d042a74d5cac063ff9517fd5a978190b78d00525",
+        "Q23-07": "receita_282b631bc5ff64ace09964442f1f79a1a7bc7670b0767477b32682f139d360d2"
+      }
+    },
+    "Q24": {
+      "consulta": "Queria assar um pão doce com banana por dentro",
+      "rankings": {
+        "bm25": [
+          {
+            "posicao": 1,
+            "id": "receita_b9bd3c6beb4803ddfc378afc1653248c1b6a308f6051278505bbbb98ff92879a",
+            "score": 13.041029559167148
+          },
+          {
+            "posicao": 2,
+            "id": "receita_bf7bdb84b33768504977d2a7ed63a4dc2a5365e26c0190597c8fca17b805b065",
+            "score": 11.555447785836082
+          },
+          {
+            "posicao": 3,
+            "id": "receita_2248e50e5d21caf3f6904dacf51ccd8bcf49a94f51c5b1eff01eb6f5c5034f49",
+            "score": 10.764727559864939
+          },
+          {
+            "posicao": 4,
+            "id": "receita_af4e13ee3ccf4cf8f2b2ffa5039a560c23493e5c7dfa6efeee4d192a52e5df63",
+            "score": 10.699846096864352
+          },
+          {
+            "posicao": 5,
+            "id": "receita_2beb803531e1c5f4613a9661721dee2e0a807c4f8f87742ba491253a73f8a182",
+            "score": 10.28078427236894
+          }
+        ],
+        "semantica": [
+          {
+            "posicao": 1,
+            "id": "receita_af4e13ee3ccf4cf8f2b2ffa5039a560c23493e5c7dfa6efeee4d192a52e5df63",
+            "score": 0.895922839641571
+          },
+          {
+            "posicao": 2,
+            "id": "receita_cf5dc8875c50fb2a8b5c70df35cae04dd0eb82625c5d5120d2ffc01d4e15da93",
+            "score": 0.8880186080932617
+          },
+          {
+            "posicao": 3,
+            "id": "receita_eecdfc15baca7ac4ea7793bda9a87461f81470a2070202f410112a24bfcad01b",
+            "score": 0.887535572052002
+          },
+          {
+            "posicao": 4,
+            "id": "receita_933299f8f6da5bcd25682f0c1ca960220b3e48040f502d8f363ce27c8230e402",
+            "score": 0.884392261505127
+          },
+          {
+            "posicao": 5,
+            "id": "receita_a01f1324accfa61cc4a6a8e1b119f250708d24979bbbdaf793ff85e0f3ceea9f",
+            "score": 0.8836410045623779
+          }
+        ]
+      },
+      "itens": {
+        "Q24-01": "receita_2248e50e5d21caf3f6904dacf51ccd8bcf49a94f51c5b1eff01eb6f5c5034f49",
+        "Q24-02": "receita_b9bd3c6beb4803ddfc378afc1653248c1b6a308f6051278505bbbb98ff92879a",
+        "Q24-03": "receita_a01f1324accfa61cc4a6a8e1b119f250708d24979bbbdaf793ff85e0f3ceea9f",
+        "Q24-04": "receita_cf5dc8875c50fb2a8b5c70df35cae04dd0eb82625c5d5120d2ffc01d4e15da93",
+        "Q24-05": "receita_933299f8f6da5bcd25682f0c1ca960220b3e48040f502d8f363ce27c8230e402",
+        "Q24-06": "receita_eecdfc15baca7ac4ea7793bda9a87461f81470a2070202f410112a24bfcad01b",
+        "Q24-07": "receita_bf7bdb84b33768504977d2a7ed63a4dc2a5365e26c0190597c8fca17b805b065",
+        "Q24-08": "receita_af4e13ee3ccf4cf8f2b2ffa5039a560c23493e5c7dfa6efeee4d192a52e5df63",
+        "Q24-09": "receita_2beb803531e1c5f4613a9661721dee2e0a807c4f8f87742ba491253a73f8a182"
+      }
+    }
+  }
+}
