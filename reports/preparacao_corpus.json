@@ -1,0 +1,105 @@
+{
+  "origem": {
+    "url": "https://raw.githubusercontent.com/denisevitoriano/tech_challenge_fase_04/9f5ac844fea4c889d1115abe6e6f00191dfb83fd/data/processed/receitas.jsonl",
+    "commit": "9f5ac844fea4c889d1115abe6e6f00191dfb83fd",
+    "sha256": "a1b7380c14ae72ac21d0cd39bb3cee0e811b77d7b6c50dc1be04f68ba4c1f158",
+    "licenca_declarada_no_readme_da_origem": "CC BY-SA 3.0"
+  },
+  "registros_originais": 2506,
+  "documentos_preparados": 2502,
+  "registros_consolidados": 4,
+  "criterio_duplicata": "Ingredientes e preparo exatamente iguais, incluindo ordem e maiúsculas.",
+  "grupos_consolidados": [
+    {
+      "id": "receita_06698c1146502df667896a10f0d36cefe49ce7fc0fc85e87a9e65f2e0b32eedf",
+      "fontes": [
+        {
+          "linha_original": 1645,
+          "titulo": "Patê de salsicha",
+          "categoria": "Patês e Pastas",
+          "fonte_titulo": "Livro de receitas/Patê de salsinha",
+          "fonte_url": "https://pt.wikibooks.org/wiki/Livro_de_receitas/Pat%C3%AA_de_salsinha"
+        },
+        {
+          "linha_original": 1668,
+          "titulo": "Patê de salsicha",
+          "categoria": "Patês e Pastas",
+          "fonte_titulo": "Livro de receitas/Patê de salsicha",
+          "fonte_url": "https://pt.wikibooks.org/wiki/Livro_de_receitas/Pat%C3%AA_de_salsicha"
+        }
+      ]
+    },
+    {
+      "id": "receita_d14de036cace8e3f43f96868fb87f3e8373e348bed26d88fa03219b8f1267c22",
+      "fontes": [
+        {
+          "linha_original": 1646,
+          "titulo": "Patê de salsicha",
+          "categoria": "Patês e Pastas",
+          "fonte_titulo": "Livro de receitas/Patê de salsinha",
+          "fonte_url": "https://pt.wikibooks.org/wiki/Livro_de_receitas/Pat%C3%AA_de_salsinha"
+        },
+        {
+          "linha_original": 1669,
+          "titulo": "Patê de salsicha",
+          "categoria": "Patês e Pastas",
+          "fonte_titulo": "Livro de receitas/Patê de salsicha",
+          "fonte_url": "https://pt.wikibooks.org/wiki/Livro_de_receitas/Pat%C3%AA_de_salsicha"
+        }
+      ]
+    },
+    {
+      "id": "receita_2352c6e23f460fedfd21daa3e1d4db05ccab6548d1eb84dfa9d6cdac51223791",
+      "fontes": [
+        {
+          "linha_original": 1711,
+          "titulo": "Pizza fácil",
+          "categoria": "Pizzas",
+          "fonte_titulo": "Livro de receitas/Pizza fácil",
+          "fonte_url": "https://pt.wikibooks.org/wiki/Livro_de_receitas/Pizza_f%C3%A1cil"
+        },
+        {
+          "linha_original": 1737,
+          "titulo": "Pizza",
+          "categoria": "Massas",
+          "fonte_titulo": "Livro de receitas/Pizza",
+          "fonte_url": "https://pt.wikibooks.org/wiki/Livro_de_receitas/Pizza"
+        }
+      ]
+    },
+    {
+      "id": "receita_1564b3dc97a81920e9bfea818d303ef25e9d81c907f141ccb3096d09f3cd575d",
+      "fontes": [
+        {
+          "linha_original": 2496,
+          "titulo": "Vitamina de iogurte com cenoura e coco",
+          "categoria": "Geral",
+          "fonte_titulo": "Livro de receitas/Vitamina de iogurte com cenoura e coco",
+          "fonte_url": "https://pt.wikibooks.org/wiki/Livro_de_receitas/Vitamina_de_iogurte_com_cenoura_e_coco"
+        },
+        {
+          "linha_original": 2497,
+          "titulo": "Vitamina de iogurte com cenoura e coco",
+          "categoria": "Geral",
+          "fonte_titulo": "Livro de receitas/Vitamina de quatro frutas",
+          "fonte_url": "https://pt.wikibooks.org/wiki/Livro_de_receitas/Vitamina_de_quatro_frutas"
+        }
+      ]
+    }
+  ],
+  "revisao_pendente": [
+    {
+      "id": "receita_43f6368d82337863c33dc5b571ff2e02ac2d6f5f2137aaa3fdf7269edb65b1e8",
+      "linha_original": 1580,
+      "titulo": "Musse de maracujá",
+      "motivo": "Possível resíduo de marcação; revisar separação das subseções."
+    },
+    {
+      "id": "receita_c072e45dc9482c0cee33a93386405461f4229cf9190101c4c73802b1684af01a",
+      "linha_original": 2367,
+      "titulo": "Suspiros deliciosos",
+      "motivo": "Caso observado na auditoria: preparo contém apenas uma observação."
+    }
+  ],
+  "limite_da_revisao": "Não é revisão manual completa nem detecção de todas as receitas quase iguais."
+}
