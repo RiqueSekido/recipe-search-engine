@@ -1,0 +1,175 @@
+{
+  "index_version": 1,
+  "model_id": "intfloat/multilingual-e5-small",
+  "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "corpus_sha256": "c01a6856fdebab0809e38aab02d9852c557a85521bf0420e96461657e7c95a93",
+  "documents": 2502,
+  "dimensions": 384,
+  "max_tokens": 512,
+  "document_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "normalized": true,
+  "long_text_policy": "truncate",
+  "oversized_documents": [
+    {
+      "id": "receita_eff4d81d3ac9421d14aa4e859d949d97b1bcfa2b76fe29e68eb16c9c54f6b69f",
+      "titulo": "Angu mineiro",
+      "tokens": 513
+    },
+    {
+      "id": "receita_6c6a2d9f6796bf07813fa004194e39e68fe5e599e22eff1129a2b4d64e6fe08b",
+      "titulo": "Almôndegas deliciosas",
+      "tokens": 623
+    },
+    {
+      "id": "receita_fb025df35d384d5d03efd8e47ce663dcb3ce795ab48e2a1c23cf5920ba4c649a",
+      "titulo": "Abacaxi cristalizado",
+      "tokens": 580
+    },
+    {
+      "id": "receita_410f5d65f3da7cd7f304e4ca2528a6dd142d5c36a91e9d2fa2ae1fe9bc52c329",
+      "titulo": "Aperitivo com butiá",
+      "tokens": 591
+    },
+    {
+      "id": "receita_a5d94c6a57183e9ec5e716ee34f54a3c9b0d435fe5c498364dc7c0700fdf423b",
+      "titulo": "Bacalhoada à moda Piumhi",
+      "tokens": 544
+    },
+    {
+      "id": "receita_c4fd00207dfd5b58475ca00cfcd91d13be5a01279c98b93706725347c2ac0f8b",
+      "titulo": "Bolinhos de queijo",
+      "tokens": 652
+    },
+    {
+      "id": "receita_e6374fe4141cff476d9b160e7f8d4f9743ef5ea772a2a12306ca02618adf3e53",
+      "titulo": "Bolo de chocolate à Bomjepe",
+      "tokens": 590
+    },
+    {
+      "id": "receita_5676801ba21c7adc3899ea79de518f04b59486be77186a474f0c600210743924",
+      "titulo": "Caixinhas de pão com recheio de camarão",
+      "tokens": 783
+    },
+    {
+      "id": "receita_2b0475d20c1e55d9a9b60b17507efc81b83dc93fd629651ba52462f61a8ec0af",
+      "titulo": "Carne serenada e torta de cebola",
+      "tokens": 523
+    },
+    {
+      "id": "receita_6e055a9b5a51600cb11a86cf7b763b309851dfdcf2f44643f190968a5e07f4f4",
+      "titulo": "Coxinha de frango",
+      "tokens": 811
+    },
+    {
+      "id": "receita_d4af7db22eb945fbdb3e6afb35b850f4a2b560677ed8fb7a32915970685d445c",
+      "titulo": "Cuscuz mineiro",
+      "tokens": 579
+    },
+    {
+      "id": "receita_5cf1cc4eb86cc887549e802c8ea8dbb974a6080df90d7630195c5423ccbfe7b8",
+      "titulo": "Escalope de lombo - empanado",
+      "tokens": 595
+    },
+    {
+      "id": "receita_0c185304d5a3a9a616906b177dc8706ea038994f18189716dca2c179cf971580",
+      "titulo": "Flor de pão recheada com bacon e queijo",
+      "tokens": 560
+    },
+    {
+      "id": "receita_f46d2da887e56d085b94ef3e822514eaea259bdb88f9eb9539ad19963e03ce19",
+      "titulo": "Feijoada brasileira completa",
+      "tokens": 568
+    },
+    {
+      "id": "receita_2bd436741740a0fb5ec11e99d47aed414bc8a3a58c9b6ff01cefb375bc17b855",
+      "titulo": "Figo cristalizado à Bomjepe",
+      "tokens": 564
+    },
+    {
+      "id": "receita_9c8f70fbd4e7f0cb38ddfb361911e6d1ece7943d8009e2fb5e041a7d4776f650",
+      "titulo": "Lombo de porco ao vinho",
+      "tokens": 585
+    },
+    {
+      "id": "receita_bf5944b2b7cc331205d7bfe243f3219b784439518d5d53add029baa0fdce6f0a",
+      "titulo": "Macarrão com legumes e carne",
+      "tokens": 982
+    },
+    {
+      "id": "receita_55071aa2b3e01e928e61cda327a8b0c6d2bf58361e521fff99450ee89fe9c51a",
+      "titulo": "Manjar Napolitano",
+      "tokens": 521
+    },
+    {
+      "id": "receita_c5ae05b6ba0129656565a10cc7e9e0347850df43069e0290116e7f604c6e4946",
+      "titulo": "Migas à alentejana",
+      "tokens": 715
+    },
+    {
+      "id": "receita_1131a8f2f0592f025e06ab41f6451118a06c2f3ae550e82a840b54e916de7fa9",
+      "titulo": "Mousse de Pitanga",
+      "tokens": 577
+    },
+    {
+      "id": "receita_53422ca1751ac2b66d3a3e39c6c5dc1af23e99c04c1ac67cf392401e8fb571fd",
+      "titulo": "Panetone recheado - Sorvettone",
+      "tokens": 516
+    },
+    {
+      "id": "receita_f6c3e8ec918114082e49d3386097702eee4d2e846f258c927f59ab94a1623167",
+      "titulo": "Peixada catarinense",
+      "tokens": 537
+    },
+    {
+      "id": "receita_65da4f75113077d613fd1558f7c598f1d509166bc4dc87dc6fa6aa96c7453e18",
+      "titulo": "Pão de fôrma recheado",
+      "tokens": 575
+    },
+    {
+      "id": "receita_6301a4466a7608a0502da40c1f4a0675f84cb2b481cc832c75ee18f02ecc205d",
+      "titulo": "Quibe assado com coalhada seca",
+      "tokens": 646
+    },
+    {
+      "id": "receita_42e5f17c78ec44d0ba2600cc42043cd824f34878c55f28b2ef6a008a2c63345a",
+      "titulo": "Rocambole de frango e queijo",
+      "tokens": 581
+    },
+    {
+      "id": "receita_59aeb724ba978b439d87c968414be58644605500a4287ea587734161992f02d2",
+      "titulo": "Suflê de bananas ao chocolate e rum",
+      "tokens": 546
+    },
+    {
+      "id": "receita_05f4bb939b5cf5e651d7472b31067e338ff24b293e022a10de20c9a6c9b4b29e",
+      "titulo": "Sorvetes caseiros - básicos",
+      "tokens": 521
+    },
+    {
+      "id": "receita_e8a53b1d70a68926597cd589d102c0e87a19dc586fd72ace4aea9095aa673b3c",
+      "titulo": "Suspiro vegano",
+      "tokens": 577
+    },
+    {
+      "id": "receita_e3b56233c9f5519cfa55658da27027d3d524896ed7f5b77d36f37ed9ed22f1b7",
+      "titulo": "Tofu",
+      "tokens": 617
+    },
+    {
+      "id": "receita_161b97115cf9dce34a39d2612d9b7e85a74b5b0449d706d257bea8beaf95b50d",
+      "titulo": "Torta inglesa",
+      "tokens": 539
+    },
+    {
+      "id": "receita_941e2c38e8681e397d5ffc9111a2a5d3eb19c9c5e8420f7a9c0425de9a5ca8e7",
+      "titulo": "Yakissoba",
+      "tokens": 696
+    },
+    {
+      "id": "receita_3f380cac7f39d0df2b63e4f45212f43c90a1c4a6f8446569341d9f7fae437ab6",
+      "titulo": "Lasanha Verde aos Quatro Queijos",
+      "tokens": 759
+    }
+  ]
+}
