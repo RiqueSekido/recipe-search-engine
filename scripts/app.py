@@ -53,9 +53,10 @@ def main():
     st.caption("Experimente uma consulta")
     examples = ("bolo de cenoura", "suco de ananás", "lanche salgado para comer com as mãos")
     example_clicked = False
-    for column, example in zip(st.columns(3), examples):
-        if column.button(example, on_click=choose_example, args=(example,)):
-            example_clicked = True
+    with st.container(horizontal=True, horizontal_alignment="left"):
+        for example in examples:
+            if st.button(example, on_click=choose_example, args=(example,)):
+                example_clicked = True
     with st.form("busca"):
         query = st.text_input("O que você quer preparar?", key="consulta",
                               placeholder="Digite uma consulta em português")

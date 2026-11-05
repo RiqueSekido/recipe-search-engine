@@ -6,6 +6,14 @@ Como encontrar uma receita quando você usa um nome diferente do que aparece no 
 
 **Com o projeto já preparado**, abra o PowerShell na raiz do repositório e execute:
 
+Se tiver o `make` instalado e funcionando, use `make` ou `make run`:
+
+```powershell
+make run
+```
+
+Também é possível iniciar diretamente com o Python:
+
 ```powershell
 .\.venv\Scripts\python.exe -m streamlit run scripts/app.py --server.address 127.0.0.1 --server.port 8501
 ```
@@ -17,7 +25,14 @@ Mantenha o aplicativo aberto durante a feira. As consultas seguintes reutilizam 
 <details>
 <summary><strong>Primeira instalação no Windows</strong></summary>
 
-Use a branch `dev`, que contém a aplicação e o corpus preparado. Com Python 3.12 de 64 bits instalado, execute na raiz do projeto. A primeira linha usa o caminho padrão de instalação para o usuário. Ajuste-o se necessário.
+Com Git e Python 3.12 de 64 bits instalados, clone a branch `main`, que contém a aplicação e o corpus preparado, e entre na pasta do projeto:
+
+```powershell
+git clone --branch main https://github.com/RiqueSekido/recipe-search-engine.git
+cd recipe-search-engine
+```
+
+Na raiz do projeto, crie o ambiente e instale as dependências. A primeira linha usa o caminho padrão de instalação do Python para o usuário. Ajuste-o se necessário.
 
 ```powershell
 & "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" -m venv .venv
