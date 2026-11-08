@@ -35,7 +35,7 @@ cd recipe-search-engine
 Na raiz do projeto, crie o ambiente e instale as dependências. A primeira linha usa o caminho padrão de instalação do Python para o usuário. Ajuste-o se necessário.
 
 ```powershell
-& "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" -m venv .venv
+py -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
 .\.venv\Scripts\python.exe -m pip install "torch==2.15.0+cpu" --index-url https://download.pytorch.org/whl/cpu
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
