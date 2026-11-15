@@ -1,5 +1,7 @@
 # Busca de receitas em linguagem natural
 
+[Repositório do projeto no GitHub](https://github.com/RiqueSekido/recipe-search-engine)
+
 Como encontrar uma receita quando você usa um nome diferente do que aparece no livro? Nesta demonstração de Recuperação da Informação, você faz uma consulta em português e compara duas listas de até cinco resultados. Ambas pesquisam as mesmas **2.502 receitas do Wikilivros**. A coluna **Por palavras** usa BM25 para localizar termos da consulta. A coluna **Por significado** usa embeddings para aproximar textos de sentido semelhante.
 
 ## Abrir a interface da feira
