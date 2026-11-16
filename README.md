@@ -6,7 +6,7 @@
 | --- | --- |
 | Henrique Yukio Sekido | 14614564 |
 | Henrique Drago | 14675441 |
-| Karl Cruz Altenhofen | A preencher |
+| Karl Cruz Altenhofen | 14585976 |
 
 Como encontrar uma receita quando você usa um nome diferente do que aparece no livro? Nesta demonstração de Recuperação da Informação, você faz uma consulta em português e compara duas listas de até cinco resultados. Ambas pesquisam as mesmas **2.502 receitas do Wikilivros**. A coluna **Por palavras** usa BM25 para localizar termos da consulta. A coluna **Por significado** usa embeddings para aproximar textos de sentido semelhante.
 
